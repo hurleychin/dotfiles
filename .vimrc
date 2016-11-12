@@ -35,8 +35,6 @@
 	"let Vundle manage Vundle, required
 	Plugin 'VundleVim/Vundle.vim'
 	"""""""""""""""""""" Add plugins start """""""""""""""""""" 
-	"vim-colors-solarized
-	Plugin 'altercation/vim-colors-solarized'
 	"vim surround
 	Plugin 'tpope/vim-surround'
 	"tabular (text filtering and alignment)
