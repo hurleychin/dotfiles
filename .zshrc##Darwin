@@ -49,7 +49,8 @@ ZSH_THEME="ys"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git github autojump colored-man-pages vi-mode command-not-found osx)
+plugins=(git github autojump colored-man-pages vi-mode command-not-found osx brew zsh-completions)
+autoload -U compinit && compinit
 
 # User configuration
 # export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
@@ -99,3 +100,4 @@ alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
 alias kk="kill -9"
 alias proxy="proxychains4 -q"
+
