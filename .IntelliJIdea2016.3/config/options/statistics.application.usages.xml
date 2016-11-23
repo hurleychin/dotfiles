@@ -1,0 +1,21 @@
+<application>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="execute.Application.JRebel Debug" count="3" />
+      <entry feature="ide.settings.Advanced" count="1" />
+      <entry feature="ide.settings.Appearance" count="4" />
+      <entry feature="ide.settings.Colors_&amp;_Fonts" count="1" />
+      <entry feature="ide.settings.Font" count="2" />
+      <entry feature="ide.settings.GitHub" count="1" />
+      <entry feature="ide.settings.Maven" count="1" />
+      <entry feature="ide.settings.Notifications" count="1" />
+      <entry feature="ide.settings.Plugins" count="2" />
+      <entry feature="ide.settings.Web_Browsers" count="2" />
+      <entry feature="ideaapp.started" count="24" />
+      <entry feature="welcome.screen.WelcomeScreen.Configure" count="2" />
+      <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="2" />
+      <entry feature="welcome.screen.WelcomeScreen.GetFromVcs" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.ImportProject" count="2" />
+    </counts>
+  </component>
+</application>
