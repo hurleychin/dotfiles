@@ -795,6 +795,11 @@
         <option name="myPlugins">
           <set>
             <plugin>
+              <option name="myPluginId" value="AWS Elastic Beanstalk" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+            <plugin>
               <option name="myPluginId" value="org.jetbrains.erlang" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
@@ -963,6 +968,11 @@
       <plugins>
         <option name="myPlugins">
           <set>
+            <plugin>
+              <option name="myPluginId" value="org.avallach.daedalus.ide" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
             <plugin>
               <option name="myPluginId" value="org.dlangplugin" />
               <option name="myPluginName" />
@@ -2205,6 +2215,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.jsfl">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="JSFL Support" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.jshintignore">
       <plugins>
         <option name="myPlugins">
@@ -2416,6 +2439,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="com.plopiplop.leekwars" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.ll">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="io.alef.vypa" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -5055,6 +5091,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="org.mule.tooling.intellij.dataweave" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.wiki">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="FitNesse" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>

@@ -2,15 +2,16 @@
   <component name="RecentProjectsManager">
     <option name="recentPaths">
       <list>
-        <option value="$USER_HOME$/Github/java-design-patterns" />
+        <option value="$USER_HOME$/Workspace/Github/java-design-patterns" />
+        <option value="$USER_HOME$/Workspace/IdeaProjects" />
       </list>
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/Github/java-design-patterns" />
+        <option value="$USER_HOME$/Workspace/Github/java-design-patterns" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/Github/java-design-patterns" />
+    <option name="lastPath" value="$USER_HOME$/Workspace/Github/java-design-patterns" />
     <option name="additionalInfo">
       <map>
         <entry key="$USER_HOME$/Github/java-design-patterns">
@@ -19,8 +20,8 @@
               <option name="build" value="IU-163.7743.44" />
               <option name="productionCode" value="IU" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1479908461372" />
-              <option name="buildTimestamp" value="1479416514947" />
+              <option name="projectOpenTimestamp" value="1480168805143" />
+              <option name="buildTimestamp" value="1479416494947" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -32,6 +33,28 @@
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="projectOpenTimestamp" value="1479147617109" />
               <option name="buildTimestamp" value="1476374400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Workspace/Github/java-design-patterns">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-163.7743.44" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1480352151881" />
+              <option name="buildTimestamp" value="1479416483501" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Workspace/IdeaProjects">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-163.7743.44" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1480346866058" />
+              <option name="buildTimestamp" value="1479416513806" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

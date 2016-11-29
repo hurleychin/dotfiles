@@ -1,18 +1,23 @@
 <application>
   <component name="PropertiesComponent">
     <property name="installed.kotlin.plugin.version" value="1.0.5-release-IJ2016.3-1" />
-    <property name="android-component-compatibility-check" value="1479487193207" />
-    <property name="file.chooser.recent.files" value="/opt/maven&#10;/home/qinhulin/Github/java-design-patterns&#10;/home/qinhulin/Dotfiles/idea.settings&#10;/usr/lib/jvm/java-8-jdk&#10;/home/qinhulin/IdeaProjects/test" />
+    <property name="android-component-compatibility-check" value="1480168791928" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Workspace/Github/java-design-patterns&#10;/home/qinhulin/Workspace/IdeaProjects&#10;/home&#10;/home/qinhulin/Github/java-design-patterns/pom.xml&#10;/home/qinhulin/Github/java-design-patterns&#10;/usr/lib/jvm/java-8-jdk&#10;/opt/maven&#10;/home/qinhulin/Dotfiles/idea.settings&#10;/home/qinhulin/IdeaProjects/test" />
     <property name="last.imported.location" value="$USER_HOME$/Github/java-design-patterns" />
     <property name="create.project.preferred.importer" value="Existing Sources" />
     <property name="toolwindow.stripes.buttons.info.shown" value="true" />
     <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
     <property name="lastTip" value="1" />
-    <property name="PLUGIN_FILTER" value="markdown&#10;jre&#10;ideav&#10;idea" />
-    <property name="ideavim.statistics.timestamp" value="1479907574689" />
-    <property name="project.wizard.group" value="JAVA_MODULE" />
+    <property name="PLUGIN_FILTER" value="jre&#10;markdown&#10;ideav&#10;idea" />
+    <property name="ideavim.statistics.timestamp" value="1480346922322" />
+    <property name="project.wizard.group" value="org.jetbrains.idea.maven.wizards.MavenModuleBuilder" />
     <property name="IJ_BASE_PACKAGE" value="com.company" />
     <property name="project.wizard.template" value="Java" />
     <property name="decompiler.legal.notice.accepted" value="true" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Paths" />
+    <property name="ProjectStructure.SecondLevelElements" value="0.48630136" />
+    <property name="MavenModuleWizard.inheritGroupId" value="true" />
+    <property name="MavenModuleWizard.inheritVersion" value="true" />
   </component>
 </application>

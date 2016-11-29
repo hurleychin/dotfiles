@@ -33,6 +33,7 @@ DISABLE_AUTO_UPDATE="true"
 # COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
+
 # under VCS as dirty. This makes repository status check for large repositories
 # much, much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
@@ -93,6 +94,7 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 alias ZS="source ~/.zshrc"
 alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
@@ -106,7 +108,43 @@ alias yarmd="yaourt -Rddns"
 alias yals="yaourt -Ql"
 alias yast="yaourt --stats"
 alias pauu="pacaur -Su --devel"
-alias backup="mackup -vf backup"
+
+# Some custom function
+function til() {
+
+	local HUGO_BASE=(~/Workspace/hugo-site)
+	
+	local HUGO_CONTENT=( --git-dir=$HUGO_BASE/.git --work-tree=$HUGO_BASE)
+	local HUGO_PUBLIC=( --git-dir=$HUGO_BASE/public/.git --work-tree=$HUGO_BASE/public)
+
+	if [ "$1" = "new" ]; then 
+		if [ "$2" = "" ]; then
+			echo "usage: til new [title]"
+			return 1
+		else
+			hugo -s $HUGO_BASE new post/$2.md --editor code&&hugo -s $HUGO_BASE server
+		fi
+	elif [ "$1" = "status" ]; then
+		echo "\n===HUGO_CONENT==="
+		git $HUGO_CONTENT status
+		echo "\n===HUGO_PUBLIC==="
+		hugo -s $HUGO_BASE && git $HUGO_PUBLIC status
+	elif [ "$1" = "push" ]; then
+		echo "\n===HUGO_CONENT==="
+		git $HUGO_CONTENT add -A && git $HUGO_CONTENT commit --no-verify -m "[new]$2" && git $HUGO_CONTENT push
+		echo "\n===HUGO_PUBLIC==="
+		git $HUGO_PUBLIC add -A && git $HUGO_PUBLIC commit --no-verify -m "[new]$2" && git $HUGO_PUBLIC push
+	elif [ "$1" = "pull" ]; then
+		echo "\n===HUGO_CONENT==="
+		git $HUGO_CONTENT pull 
+		echo "\n===HUGO_PUBLIC==="
+		git $HUGO_PUBLIC pull 
+	else
+		echo "usage: til <new|status|push|pull> [<args>]"
+		return 1
+	fi
+
+}
 
 # Hook
 source /usr/share/doc/pkgfile/command-not-found.zsh
