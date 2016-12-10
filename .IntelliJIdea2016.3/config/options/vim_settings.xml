@@ -3,131 +3,90 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="D:/IdeaProject/tzxsaas/WebRoot/pages/framework/thirdpartymanagementplatform/js/businessinformationsettings.js" timestamp="1474627575927">
-        <mark key="'" line="2204" column="31" />
-        <mark key="[" line="2210" column="24" />
-        <mark key="]" line="2210" column="30" />
-        <mark key="^" line="2210" column="30" />
-        <mark key="." line="2210" column="30" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/prototype/src/main/java/evil/org/prototype/This.java" timestamp="1481031366621">
+        <mark key="[" line="5" column="17" />
       </file>
-      <file name="/File Header.txt.ft" timestamp="1473656477318">
-        <mark key="[" line="1" column="3" />
-        <mark key="]" line="1" column="3" />
-        <mark key="." line="1" column="3" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/singleton/src/main/java/com/iluwatar/singleton/App.java" timestamp="1481038435231">
+        <mark key="[" line="107" column="0" />
+        <mark key="]" line="107" column="0" />
+        <mark key="." line="107" column="0" />
       </file>
-      <file name="D:/IdeaProject/20160902tzxsaas/resource/spring/applicationContext.xml" timestamp="1474538635209">
-        <mark key="[" line="113" column="63" />
-        <mark key="]" line="113" column="63" />
-        <mark key="." line="113" column="63" />
-        <mark key="^" line="113" column="79" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/bridge/src/main/java/org/evil/bridge/Vehicle.java" timestamp="1481205652480">
+        <mark key="[" line="9" column="5" />
+        <mark key="]" line="9" column="0" />
+        <mark key="." line="9" column="0" />
       </file>
-      <file name="D:/IdeaProject/20160902tzxsaas/WebRoot/pages/framework/thirdpartymanagementplatform/js/businessinformationsettings.js" timestamp="1474878552760">
-        <mark key="[" line="2748" column="0" />
-        <mark key="]" line="2748" column="0" />
-        <mark key="." line="2748" column="0" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/prototype/src/main/java/evil/org/prototype/Prototype.java" timestamp="1481031052301">
+        <mark key="[" line="5" column="28" />
       </file>
-      <file name="$USER_HOME$/Github/java-design-patterns/flux/src/main/java/com/iluwatar/flux/app/App.java" timestamp="1480090246324" />
-      <file name="/a.dummy" timestamp="1474627345419">
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/bridge/src/main/java/org/evil/bridge/Gear.java" timestamp="1481205491518">
+        <mark key="[" line="5" column="23" />
+      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/adapter/src/main/java/com/iluwatar/adapter/MyApp.java" timestamp="1481040015555">
+        <mark key="[" line="5" column="20" />
+      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/prototype/src/main/java/evil/org/prototype/PrototypesModule.java" timestamp="1481031253985">
+        <mark key="[" line="5" column="31" />
+      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/builder/src/main/java/org/evil/builder/HeroBuilder.java" timestamp="1480839760953">
+        <mark key="[" line="9" column="24" />
+      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/bridge/src/main/java/org/evil/bridge/ManualGear.java" timestamp="1481205557720">
+        <mark key="[" line="5" column="24" />
+        <mark key="]" line="5" column="24" />
+        <mark key="^" line="5" column="28" />
+        <mark key="." line="5" column="24" />
+      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/bridge/src/main/java/org/evil/bridge/App.java" timestamp="1481206131841">
+        <mark key="[" line="9" column="8" />
+        <mark key="]" line="9" column="14" />
+        <mark key="." line="9" column="14" />
+        <mark key="^" line="9" column="14" />
+      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/composite/README.md" timestamp="1481378936577" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/builder/src/main/java/org/evil/builder/Director.java" timestamp="1480841248898">
+        <mark key="[" line="5" column="23" />
+      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/prototype/src/main/java/evil/org/prototype/Command.java" timestamp="1481031187083">
+        <mark key="[" line="5" column="26" />
+      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/composite/src/main/java/com/evil/composite/App.java" timestamp="1481378666098">
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="20" column="0" />
+        <mark key="." line="20" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/prototype/src/main/java/evil/org/prototype/App.java" timestamp="1481031390145">
+        <mark key="[" line="5" column="18" />
+      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/bridge/src/main/java/org/evil/bridge/AutoGear.java" timestamp="1481205587947">
+        <mark key="[" line="8" column="28" />
+        <mark key="]" line="8" column="31" />
+        <mark key="^" line="8" column="31" />
+        <mark key="." line="8" column="31" />
+      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/bridge/src/main/java/org/evil/bridge/Car.java" timestamp="1481205958594">
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="12" column="7" />
+        <mark key="^" line="12" column="7" />
+        <mark key="." line="12" column="7" />
+      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/bridge/src/main/java/org/evil/bridge/APp.java" timestamp="1481205981400">
+        <mark key="[" line="5" column="13" />
+        <mark key="]" line="5" column="15" />
+        <mark key="." line="5" column="15" />
+        <mark key="^" line="5" column="15" />
+      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/bridge/src/main/java/org/evil/bridge/Truck.java" timestamp="1481205963859">
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="5" column="42" />
+        <mark key="^" line="5" column="42" />
+        <mark key="." line="5" column="42" />
+      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/bridge/src/main/java/org/evil/bridge/Implementor.java" timestamp="1481202831585">
+        <mark key="[" line="5" column="30" />
+      </file>
+      <file name="/fragment.java" timestamp="1480962022067">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Github/java-design-patterns/abstract-document/README.md" timestamp="1479504773463">
-        <mark key="[" line="30" column="10" />
-        <mark key="]" line="30" column="12" />
-        <mark key="^" line="30" column="12" />
-        <mark key="." line="30" column="12" />
-      </file>
-      <file name="D:/IdeaProject/20160902tzxsaas/src_pos/com/tzx/orders/bo/imp/OrderSyncServiceImp.java" timestamp="1474284683958">
-        <mark key="[" line="167" column="31" />
-        <mark key="]" line="167" column="38" />
-        <mark key="." line="167" column="38" />
-        <mark key="^" line="167" column="38" />
-      </file>
-      <file name="D:/IdeaProject/20160902tzxsaas/src_pos/com/tzx/orders/po/springjdbc/dao/imp/OrdersManagementDaoImp.java" timestamp="1474343386182">
-        <mark key="'" line="311" column="0" />
-        <mark key="[" line="396" column="50" />
-        <mark key="]" line="399" column="82" />
-        <mark key="^" line="399" column="82" />
-        <mark key="." line="399" column="82" />
-      </file>
-      <file name="$USER_HOME$/IdeaProjects/test/.idea/compiler.xml" timestamp="1478885840948">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="4" />
-        <mark key="." line="0" column="4" />
-      </file>
-      <file name="D:/IdeaProject/tzxsaas/WebRoot/pages/framework/thirdpartymanagementplatform/businessinformationsettings.jsp" timestamp="1474627573760">
-        <mark key="'" line="49" column="108" />
-        <mark key="[" line="49" column="93" />
-        <mark key="]" line="49" column="95" />
-        <mark key="^" line="49" column="95" />
-        <mark key="." line="49" column="95" />
-      </file>
-      <file name="/HTML File.txt.ft" timestamp="1473656094474">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Github/java-design-patterns/pom.xml" timestamp="1480087791575">
-        <mark key="[" line="56" column="0" />
-        <mark key="]" line="56" column="16" />
-        <mark key="." line="56" column="16" />
-      </file>
-      <file name="/ActionScript File Header.txt.ft" timestamp="1474620131380">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1480080808942">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
-      </file>
-      <file name="D:/IdeaProject/20160902tzxsaas/WebRoot/pages/pos/ordersmanagement/ordersmanagement.jsp" timestamp="1474445381843">
-        <mark key="'" line="314" column="4" />
-        <mark key="[" line="10" column="0" />
-        <mark key="]" line="10" column="0" />
-        <mark key="^" line="22" column="3" />
-        <mark key="." line="10" column="0" />
-      </file>
-      <file name="D:/IdeaProject/20160902tzxsaas/src_cc/com/tzx/cc/baidu/bo/imp/ThirdPartyOrderReceiver.java" timestamp="1473848723028">
-        <mark key="[" line="169" column="0" />
-        <mark key="]" line="169" column="0" />
-        <mark key="." line="169" column="0" />
-      </file>
-      <file name="$USER_HOME$/IdeaProjects/test/src/com/company/Main.java" timestamp="1479147721717">
-        <mark key="[" line="4" column="31" />
-        <mark key="]" line="4" column="31" />
-        <mark key="^" line="8" column="7" />
-        <mark key="." line="4" column="31" />
-      </file>
-      <file name="$USER_HOME$/.IntelliJIdea2016.2/idea64.exe.vmoptions" timestamp="1473771301794">
-        <mark key="[" line="5" column="0" />
-        <mark key="]" line="5" column="0" />
-        <mark key="." line="5" column="0" />
-      </file>
-      <file name="/Arquillian Deployment Method.txt.ft" timestamp="1473656212445">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="D:/IdeaProject/20160902tzxsaas/src_cc/com/tzx/cc/baidu/test/Test.java" timestamp="1473656680610">
-        <mark key="[" line="2" column="2" />
-        <mark key="]" line="2" column="2" />
-        <mark key="." line="2" column="2" />
-      </file>
-      <file name="D:/IdeaProject/20160902tzxsaas/src_pos/com/tzx/orders/bo/imp/OrdersManagementServiceImp.java" timestamp="1474618844319">
-        <mark key="'" line="337" column="44" />
-        <mark key="[" line="344" column="61" />
-        <mark key="]" line="344" column="88" />
-        <mark key="." line="344" column="88" />
-        <mark key="^" line="344" column="88" />
-      </file>
-      <file name="/context_5_0.txt.ft" timestamp="1473656438577">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="D:/IdeaProject/20160902tzxsaas/src_pos/com/tzx/pos/bo/imp/PaymentServiceImp.java" timestamp="1474450191177">
-        <mark key="[" line="1412" column="32" />
-        <mark key="]" line="1412" column="31" />
-        <mark key="^" line="1412" column="31" />
-        <mark key="." line="1412" column="31" />
-      </file>
-      <file name="/fragment.java" timestamp="1480079802679">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="8" />
-        <mark key="." line="0" column="8" />
       </file>
     </filemarks>
     <jumps>
@@ -231,44 +190,44 @@
       <jump line="2204" column="31" filename="D:/IdeaProject/tzxsaas/WebRoot/pages/framework/thirdpartymanagementplatform/js/businessinformationsettings.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>aaaaaaaaaaaaa</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBoLnByaW50KCk7Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>aaaaaaaaaaaaa</text>
+        <text>word</text>
       </register>
       <register name="/" type="4">
         <text>sco</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CQkgICAgdmFyIHNhdmVBY2NvdW50SW5mb1VybD0iPCU9IHJlcXVlc3QuZ2V0Q29udGV4dFBhdGgoKSU+L3RoaXJkcGFydHkvc2hvcHJlc3Qvc2F2ZUFjY291bnRJbmZvIjsK</text>
+        <text encoding="base64">ICAgICAgICBXb3JkIGhlbGxvPW5ldyBXb3JkKEFycmF5cy5hc0xpc3QoaCxuZXcgTGV0dGVyKCdlJyksbmV3IExldHRlcignbCcpLG5ldyBMZXR0ZXIoJ2wnKSxuZXcgTGV0dGVyKCdvJykpKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmCg==</text>
+        <text encoding="base64">ICAgICAgICBoLnByaW50KCk7Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBzZW50ZW5jZS5hZGQobmV3IExldHRlcignIScpKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oc2VudGVuY2UuKTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBMaXN0PExldHRlcj4gbGV0dGVycz0gQXJyYXlzLmFzTGlzdChuZXcgQ2hhcltdKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CQkJCQkJCg==</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5zdW4uZGVwbG95LnV0aWwuQXJyYXlVdGlsOwo=</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">PHRyPgoJCQkJCQkJPHRkIHN0eWxlPSJ0ZXh0LWFsaWduOnJpZ2h0O2ZvbnQtc2l6ZToxMnB4OyI+77+977+977+977+977+9y7rvv706PC90ZD4KCQkJCQkJCTx0ZD48aW5wdXQgY2xhc3M9ImVhc3l1aS10ZXh0Ym94IiB0eXBlPSJ0ZXh0IiBuYW1lPSJzb3VyY2VfbXQiIGlkPSJzb3VyY2VfbXQiIGRhdGEtb3B0aW9ucz0iIiBzdHlsZT0id2lkdGg6MjAwcHg7IGhlaWdodDozMHB4OyI+PC90ZD4KCQkJCQkJCTx0ZCBzdHlsZT0idGV4dC1hbGlnbjpyaWdodDtmb250LXNpemU6MTJweDsiPu+/ve+/ve+/ve+/ve+/ve+/vdS/OjwvdGQ+CgkJCQkJCQk8dGQ+PGlucHV0IGNsYXNzPSJlYXN5dWktdGV4dGJveCIgdHlwZT0idGV4dCIgbmFtZT0ic2VjcmV0X210IiBpZD0ic2VjcmV0X2JkIiBkYXRhLW9wdGlvbnM9IiIgc3R5bGU9IndpZHRoOjIwMHB4OyBoZWlnaHQ6MzBweDsiPjwvdGQ+CgkJCQkJCTwvdHI+CgoJCQkJCQk8dHI+CgkJCQkJCQk8dGQgc3R5bGU9InRleHQtYWxpZ246cmlnaHQ7Zm9udC1zaXplOjEycHg7Ij7vv73vv73vv73vv73DtO+/vcu677+9OjwvdGQ+CgkJCQkJCQk8dGQ+PGlucHV0IGNsYXNzPSJlYXN5dWktdGV4dGJveCIgdHlwZT0idGV4dCIgbmFtZT0ic291cmNlX2VsZV9hZGQiIGlkPSJzb3VyY2VfZWxlX2FkZCIgZGF0YS1vcHRpb25zPSIiIHN0eWxlPSJ3aWR0aDoyMDBweDsgaGVpZ2h0OjMwcHg7Ij48L3RkPgoJCQkJCQkJPHRkIHN0eWxlPSJ0ZXh0LWFsaWduOnJpZ2h0O2ZvbnQtc2l6ZToxMnB4OyI+77+977+977+977+9w7Tvv73vv73Uvzo8L3RkPgoJCQkJCQkJPHRkPjxpbnB1dCBjbGFzcz0iZWFzeXVpLXRleHRib3giIHR5cGU9InRleHQiIG5hbWU9InNlY3JldF9lbGVfYWRkIiBpZD0ic2VjcmV0X2VsZV9hZGQiIGRhdGEtb3B0aW9ucz0iIiBzdHlsZT0id2lkdGg6MjAwcHg7IGhlaWdodDozMHB4OyI+PC90ZD4KCQkJCQkJPC90cj4=</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBXb3JkIGg9bmV3IFdvcmQoKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CQkK</text>
+        <text encoding="base64">ICAgICAgICBTZW50ZW5jZSBzZW50ZW5jZT1uZXcgU2VudGVuY2UobmV3IEFycmF5TGlzdDw+KCkpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBMaXN0PFdvcmQ+IHdvcmRzPW5ldyBBcnJheUxpc3Q8PigpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB3b3Jkcy5hZGQK</text>
       </register>
       <register name=":" type="4">
         <text>action Find</text>

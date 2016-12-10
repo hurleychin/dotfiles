@@ -1,10 +1,12 @@
 <application>
   <component name="UsageTrigger">
     <counts>
+      <entry feature="execute.Application.Debug" count="1" />
       <entry feature="execute.Application.JRebel Debug" count="3" />
-      <entry feature="execute.Application.Run" count="4" />
+      <entry feature="execute.Application.Run" count="32" />
       <entry feature="execute.MavenRunConfiguration.Run" count="1" />
       <entry feature="execute.SpringBootApplicationConfigurationType.Run" count="2" />
+      <entry feature="ide.help.ideaInterface.editor" count="2" />
       <entry feature="ide.settings.Advanced" count="1" />
       <entry feature="ide.settings.Appearance" count="4" />
       <entry feature="ide.settings.Colors_&amp;_Fonts" count="1" />
@@ -14,9 +16,11 @@
       <entry feature="ide.settings.Notifications" count="1" />
       <entry feature="ide.settings.Plugins" count="2" />
       <entry feature="ide.settings.Web_Browsers" count="2" />
-      <entry feature="ideaapp.started" count="31" />
-      <entry feature="spring.SpringConfigurationCheck.FileCount.java" count="24" />
-      <entry feature="spring.SpringConfigurationCheck.FileCount.xml" count="8" />
+      <entry feature="ideaapp.started" count="44" />
+      <entry feature="spring.SpringConfigurationCheck.FileCount.java" count="48" />
+      <entry feature="spring.SpringConfigurationCheck.FileCount.xml" count="16" />
+      <entry feature="uml.ShowDiagram.JAVA" count="1" />
+      <entry feature="uml.ShowDiagram.JAVA.popup" count="3" />
       <entry feature="welcome.screen.WelcomeScreen.Configure" count="2" />
       <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="2" />
       <entry feature="welcome.screen.WelcomeScreen.GetFromVcs" count="1" />

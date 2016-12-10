@@ -15,6 +15,12 @@
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1680.1050" x="298" y="189" />
     <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1680.1050" x="567" y="415" />
     <location key="RollbackChangesDialog.0.0.1680.1050" x="540" y="206" />
+    <location key="#com.intellij.ide.util.MemberChooser.0.0.1680.1050" x="648" y="243" />
+    <location key="StructurePopup.0.0.1680.1050" x="602" y="324" />
+    <location key="#Plugins.0.0.1680.1050" x="435" y="192" />
+    <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.1680.1050" x="568" y="277" />
+    <location key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog.0.0.1680.1050" x="268" y="448" />
+    <location key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages.0.0.1680.1050" x="471" y="407" />
     <size key="FileChooserDialogImpl.0.0.1680.1050" width="711" height="492" />
     <size key="new project wizard.0.0.1680.1050" width="832" height="798" />
     <size key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1680.1050" width="526" height="265" />
@@ -27,14 +33,19 @@
     <size key="GridCell.Tab.0.center.0.0.1680.1050" width="1632" height="265" />
     <size key="GridCell.Tab.0.right.0.0.1680.1050" width="1632" height="265" />
     <size key="GridCell.Tab.0.bottom.0.0.1680.1050" width="1632" height="265" />
-    <size key="GridCell.Tab.1.left.0.0.1680.1050" width="1636" height="333" />
-    <size key="GridCell.Tab.1.center.0.0.1680.1050" width="1636" height="333" />
-    <size key="GridCell.Tab.1.right.0.0.1680.1050" width="1636" height="333" />
-    <size key="GridCell.Tab.1.bottom.0.0.1680.1050" width="1636" height="333" />
+    <size key="GridCell.Tab.1.left.0.0.1680.1050" width="1632" height="328" />
+    <size key="GridCell.Tab.1.center.0.0.1680.1050" width="1632" height="328" />
+    <size key="GridCell.Tab.1.right.0.0.1680.1050" width="1632" height="328" />
+    <size key="GridCell.Tab.1.bottom.0.0.1680.1050" width="1632" height="328" />
     <size key="ProcessPopupWindow.0.0.1680.1050" width="283" height="286" />
     <size key="javadoc.popup.0.0.1680.1050" width="483" height="179" />
     <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1680.1050" width="1084" height="786" />
     <size key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1680.1050" width="536" height="245" />
     <size key="RollbackChangesDialog.0.0.1680.1050" width="590" height="663" />
+    <size key="#com.intellij.ide.util.MemberChooser.0.0.1680.1050" width="647" height="586" />
+    <size key="StructurePopup.0.0.1680.1050" width="472" height="395" />
+    <size key="#Plugins.0.0.1680.1050" width="800" height="689" />
+    <size key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.1680.1050" width="524" height="516" />
+    <size key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog.0.0.1680.1050" width="1133" height="179" />
   </component>
 </application>

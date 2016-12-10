@@ -55,6 +55,8 @@
 	Plugin 'mbbill/undotree'
 	"Vim sugar for UNIX shell commands that need it the most.
 	Plugin 'tpope/vim-eunuch'
+	"vim-toml
+	Plugin 'cespare/vim-toml'
 	"""""""""""""""""""" Add plugins end """""""""""""""""""""" 
 	" All of your Plugins must be added before the following line
 	call vundle#end()            " required
