@@ -147,7 +147,7 @@ alias yarm="yaourt -Rns"
 alias yarmd="yaourt -Rddns"
 alias yals="yaourt -Ql"
 alias yast="yaourt --stats"
-alias pauu="pacaur -Su --devel"
+alias pauu="pacaur -Syau" # --devel
 alias tvd="sudo systemctl start teamviewerd"
 alias loc="sudo updatedb && locate"
 

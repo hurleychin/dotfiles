@@ -45,6 +45,3 @@ set imdisable
 " Emulated Vim Plugins
 set surround
 
-" Find 
-nmap / :action Find<CR>
-

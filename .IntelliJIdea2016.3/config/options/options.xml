@@ -1,7 +1,7 @@
 <application>
   <component name="PropertiesComponent">
     <property name="installed.kotlin.plugin.version" value="1.0.5-release-IJ2016.3-1" />
-    <property name="android-component-compatibility-check" value="1480830858827" />
+    <property name="android-component-compatibility-check" value="1481473632260" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/Workspace/Github/java-design-patterns&#10;/home/qinhulin/Workspace/IdeaProjects&#10;/home&#10;/home/qinhulin/Github/java-design-patterns/pom.xml&#10;/home/qinhulin/Github/java-design-patterns&#10;/usr/lib/jvm/java-8-jdk&#10;/opt/maven&#10;/home/qinhulin/Dotfiles/idea.settings&#10;/home/qinhulin/IdeaProjects/test" />
     <property name="last.imported.location" value="$USER_HOME$/Github/java-design-patterns" />
     <property name="create.project.preferred.importer" value="Existing Sources" />
@@ -9,7 +9,7 @@
     <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
     <property name="lastTip" value="1" />
     <property name="PLUGIN_FILTER" value="tran&#10;translation&#10;jre&#10;markdown&#10;ideav" />
-    <property name="ideavim.statistics.timestamp" value="1481355452055" />
+    <property name="ideavim.statistics.timestamp" value="1481724734328" />
     <property name="project.wizard.group" value="org.jetbrains.idea.maven.wizards.MavenModuleBuilder" />
     <property name="IJ_BASE_PACKAGE" value="com.company" />
     <property name="project.wizard.template" value="Java" />
@@ -21,9 +21,8 @@
     <property name="MavenModuleWizard.inheritVersion" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="search.everywhere.max.popup.width" value="620" />
     <property name="Copy.OpenInEditor" value="true" />
     <property name="KEYMAP" value="error" />
-    <property name="SplitFileEditor.Proportion" value="0.53247863" />
+    <property name="SplitFileEditor.Proportion" value="0.82112676" />
   </component>
 </application>

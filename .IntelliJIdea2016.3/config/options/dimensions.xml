@@ -16,11 +16,13 @@
     <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1680.1050" x="567" y="415" />
     <location key="RollbackChangesDialog.0.0.1680.1050" x="540" y="206" />
     <location key="#com.intellij.ide.util.MemberChooser.0.0.1680.1050" x="648" y="243" />
-    <location key="StructurePopup.0.0.1680.1050" x="602" y="324" />
+    <location key="StructurePopup.0.0.1680.1050" x="600" y="322" />
     <location key="#Plugins.0.0.1680.1050" x="435" y="192" />
     <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.1680.1050" x="568" y="277" />
     <location key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog.0.0.1680.1050" x="268" y="448" />
     <location key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages.0.0.1680.1050" x="471" y="407" />
+    <location key="findTextDialog.0.0.1680.1050" x="597" y="234" />
+    <location key="#Updates.0.0.1680.1050" x="574" y="380" />
     <size key="FileChooserDialogImpl.0.0.1680.1050" width="711" height="492" />
     <size key="new project wizard.0.0.1680.1050" width="832" height="798" />
     <size key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1680.1050" width="526" height="265" />
@@ -47,5 +49,6 @@
     <size key="#Plugins.0.0.1680.1050" width="800" height="689" />
     <size key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.1680.1050" width="524" height="516" />
     <size key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog.0.0.1680.1050" width="1133" height="179" />
+    <size key="findTextDialog.0.0.1680.1050" width="475" height="604" />
   </component>
 </application>
