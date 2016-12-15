@@ -3,42 +3,40 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/prototype/src/main/java/evil/org/prototype/This.java" timestamp="1481031366621">
-        <mark key="[" line="5" column="17" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/chain/src/main/java/com/iluwatar/chain/OrcSoldier.java" timestamp="1481811207992" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/command/src/main/java/com/iluwatar/command/Wizard.java" timestamp="1481815899287" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/interpreter/src/main/java/org/evil/interpreter/TerminalExpression.java" timestamp="1481821460471">
+        <mark key="[" line="6" column="32" />
+        <mark key="]" line="6" column="32" />
+        <mark key="." line="6" column="32" />
       </file>
-      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/flyweight/src/main/java/org/evil/flyweight/IgoChessman.java" timestamp="1481643982037">
-        <mark key="[" line="5" column="26" />
-      </file>
-      <file name="/a.dummy" timestamp="1481807711511">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/flyweight/src/main/java/org/evil/flyweight/Shape.java" timestamp="1481645455178">
-        <mark key="[" line="5" column="24" />
-      </file>
-      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/adapter/src/main/java/com/iluwatar/adapter/MyApp.java" timestamp="1481040015555">
-        <mark key="[" line="5" column="20" />
-      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/chain/src/main/java/com/iluwatar/chain/RequestHandler.java" timestamp="1481811147083" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/chain/src/main/java/com/iluwatar/chain/OrcCommander.java" timestamp="1481811192154" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/command/src/main/java/com/iluwatar/command/Command.java" timestamp="1481814815155" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/chain/src/main/java/com/iluwatar/chain/RequestType.java" timestamp="1481811278976" />
       <file name="$USER_HOME$/Workspace/Github/java-design-patterns/bridge/src/main/java/org/evil/bridge/ManualGear.java" timestamp="1481205557720">
         <mark key="[" line="5" column="24" />
         <mark key="]" line="5" column="24" />
         <mark key="^" line="5" column="28" />
         <mark key="." line="5" column="24" />
       </file>
-      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/prototype/src/main/java/evil/org/prototype/Command.java" timestamp="1481031187083">
-        <mark key="[" line="5" column="26" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/chain/README.md" timestamp="1481811557091" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/command/src/main/java/com/iluwatar/command/ShrinkSpell.java" timestamp="1481814916606" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/interpreter/src/main/java/org/evil/interpreter/App.java" timestamp="1481823581910">
+        <mark key="[" line="31" column="0" />
+        <mark key="]" line="31" column="0" />
+        <mark key="." line="31" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/prototype/src/main/java/evil/org/prototype/App.java" timestamp="1481031390145">
-        <mark key="[" line="5" column="18" />
-      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/chain/src/main/java/com/iluwatar/chain/OrcKing.java" timestamp="1481812221920" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/chain/src/main/java/com/iluwatar/chain/Request.java" timestamp="1481811259320" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/interpreter/README.md" timestamp="1481821938081" />
       <file name="$USER_HOME$/Workspace/Github/java-design-patterns/bridge/src/main/java/org/evil/bridge/APp.java" timestamp="1481205981400">
         <mark key="[" line="5" column="13" />
         <mark key="]" line="5" column="15" />
         <mark key="." line="5" column="15" />
         <mark key="^" line="5" column="15" />
       </file>
-      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/bridge/src/main/java/org/evil/bridge/Implementor.java" timestamp="1481202831585">
-        <mark key="[" line="5" column="30" />
-      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/interpreter/src/main/java/com/iluwatar/interpreter/App.java" timestamp="1481823014573" />
       <file name="$USER_HOME$/Workspace/Github/java-design-patterns/facade/src/main/java/org/evil/facade/PrePayOrder.java" timestamp="1481635186887">
         <mark key="[" line="5" column="47" />
         <mark key="]" line="7" column="49" />
@@ -51,18 +49,23 @@
         <mark key="^" line="5" column="48" />
         <mark key="." line="5" column="48" />
       </file>
-      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/flyweight/src/main/java/org/evil/flyweight/Circle.java" timestamp="1481646135525">
-        <mark key="[" line="25" column="5" />
+      <file name="/usr/lib/jvm/java-8-jdk/src.zip!/java/util/regex/Pattern.java" timestamp="1481823456929" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/command/src/main/java/org/evil/command/PlusCommand.java" timestamp="1481817995069">
+        <mark key="[" line="9" column="12" />
+        <mark key="]" line="9" column="12" />
+        <mark key="." line="9" column="12" />
       </file>
-      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/prototype/src/main/java/evil/org/prototype/Prototype.java" timestamp="1481031052301">
-        <mark key="[" line="5" column="28" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/interpreter/src/main/java/org/evil/interpreter/OrExpression.java" timestamp="1481821815233">
+        <mark key="[" line="5" column="25" />
       </file>
-      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/bridge/src/main/java/org/evil/bridge/Gear.java" timestamp="1481205491518">
-        <mark key="[" line="5" column="23" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/command/src/main/java/org/evil/command/Command.java" timestamp="1481819198588">
+        <mark key="[" line="13" column="21" />
+        <mark key="]" line="13" column="11" />
+        <mark key="." line="13" column="11" />
+        <mark key="^" line="11" column="11" />
       </file>
-      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/prototype/src/main/java/evil/org/prototype/PrototypesModule.java" timestamp="1481031253985">
-        <mark key="[" line="5" column="31" />
-      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/chain/src/main/java/com/iluwatar/chain/OrcOfficer.java" timestamp="1481811201890" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/command/src/main/java/com/iluwatar/command/Target.java" timestamp="1481815937077" />
       <file name="$USER_HOME$/Workspace/Github/java-design-patterns/decorator/src/main/java/org/evil/decorator/App.java" timestamp="1481476322269">
         <mark key="[" line="13" column="8" />
         <mark key="]" line="13" column="8" />
@@ -75,21 +78,19 @@
         <mark key="." line="46" column="0" />
         <mark key="^" line="45" column="19" />
       </file>
-      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/builder/src/main/java/org/evil/builder/HeroBuilder.java" timestamp="1480839760953">
-        <mark key="[" line="9" column="24" />
-      </file>
-      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/flyweight/src/main/java/org/evil/flyweight/Coordinates.java" timestamp="1481644063502">
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/command/src/main/java/com/iluwatar/command/App.java" timestamp="1481815975550" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/interpreter/src/main/java/org/evil/interpreter/AndExpression.java" timestamp="1481822280117">
         <mark key="[" line="5" column="26" />
       </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/command/src/main/java/com/iluwatar/command/InvisibilitySpell.java" timestamp="1481814903954" />
       <file name="$USER_HOME$/Workspace/Github/java-design-patterns/bridge/src/main/java/org/evil/bridge/App.java" timestamp="1481206131841">
         <mark key="[" line="9" column="8" />
         <mark key="]" line="9" column="14" />
         <mark key="." line="9" column="14" />
         <mark key="^" line="9" column="14" />
       </file>
-      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/builder/src/main/java/org/evil/builder/Director.java" timestamp="1480841248898">
-        <mark key="[" line="5" column="23" />
-      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/command/src/main/java/com/iluwatar/command/Visibility.java" timestamp="1481815017750" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/command/src/main/java/com/iluwatar/command/Size.java" timestamp="1481815028814" />
       <file name="$USER_HOME$/Workspace/Github/java-design-patterns/flyweight/src/main/java/org/evil/flyweight/WhiteIgoChessman.java" timestamp="1481644041935">
         <mark key="[" line="5" column="51" />
         <mark key="]" line="5" column="48" />
@@ -108,38 +109,48 @@
         <mark key="^" line="15" column="17" />
         <mark key="." line="11" column="58" />
       </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/command/src/main/java/org/evil/command/App.java" timestamp="1481819403808">
+        <mark key="[" line="9" column="35" />
+        <mark key="]" line="9" column="35" />
+        <mark key="." line="9" column="35" />
+        <mark key="^" line="8" column="59" />
+      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/interpreter/src/main/java/org/evil/interpreter/Expression.java" timestamp="1481821386259">
+        <mark key="[" line="5" column="7" />
+        <mark key="]" line="5" column="7" />
+        <mark key="." line="5" column="7" />
+      </file>
       <file name="$USER_HOME$/Workspace/Github/java-design-patterns/bridge/src/main/java/org/evil/bridge/AutoGear.java" timestamp="1481205587947">
         <mark key="[" line="8" column="28" />
         <mark key="]" line="8" column="31" />
         <mark key="^" line="8" column="31" />
         <mark key="." line="8" column="31" />
       </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/command/src/main/java/org/evil/command/Target.java" timestamp="1481819071396">
+        <mark key="[" line="7" column="23" />
+        <mark key="]" line="7" column="23" />
+        <mark key="." line="7" column="23" />
+      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/chain/src/main/java/com/iluwatar/chain/App.java" timestamp="1481811369505" />
       <file name="$USER_HOME$/Workspace/Github/java-design-patterns/bridge/src/main/java/org/evil/bridge/Car.java" timestamp="1481205958594">
         <mark key="[" line="12" column="0" />
         <mark key="]" line="12" column="7" />
         <mark key="^" line="12" column="7" />
         <mark key="." line="12" column="7" />
       </file>
-      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/flyweight/src/main/java/org/evil/flyweight/IgoChessmanFactory.java" timestamp="1481644104461">
-        <mark key="[" line="7" column="33" />
-      </file>
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/command/src/main/java/com/iluwatar/command/Goblin.java" timestamp="1481815955519" />
+      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/command/README.md" timestamp="1481816121818" />
       <file name="$USER_HOME$/Workspace/Github/java-design-patterns/bridge/src/main/java/org/evil/bridge/Truck.java" timestamp="1481205963859">
         <mark key="[" line="12" column="0" />
         <mark key="]" line="5" column="42" />
         <mark key="^" line="5" column="42" />
         <mark key="." line="5" column="42" />
       </file>
-      <file name="$USER_HOME$/Workspace/Github/java-design-patterns/flyweight/src/main/java/org/evil/flyweight/ShapeFactory.java" timestamp="1481645531911">
-        <mark key="[" line="7" column="27" />
-      </file>
       <file name="$USER_HOME$/Workspace/Github/java-design-patterns/facade/src/main/java/org/evil/facade/NoPayOrder.java" timestamp="1481635251532">
         <mark key="[" line="8" column="5" />
         <mark key="]" line="7" column="48" />
         <mark key="^" line="7" column="48" />
         <mark key="." line="7" column="48" />
-      </file>
-      <file name="/fragment.java" timestamp="1480962022067">
-        <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -244,43 +255,48 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBjMS5kcmF3KCk7Cg==</text>
+        <text encoding="base64">ICAgCg==</text>
       </register>
       <register name="-" type="4">
-        <text>1</text>
+        <text>extends</text>
       </register>
       <register name="/" type="4">
         <text>sco</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBjMS5kcmF3KCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oY29tbWFuZC5leGVjdXRlKG5ldyBUYXJnZXQoKSw1MCkpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oYzE9PWMyKTsK</text>
+        <text encoding="base64">ICAgCg==</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBDaXJjbGUgYzE9KENpcmNsZSlTaGFwZUZhY3RvcnkuZ2V0Q2lyY2xlKCJSZWQiKTsKCg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">IFBhdHRlcm4gcCA9IFBhdHRlcm4uY29tcGlsZSgiYSpiIik7CiAgICBNYXRjaGVyIG0gPSBwLm1hdGNoZXIoImFhYWFhYiIpOwogICAgYm9vbGVhbiBiID0gbS5tYXRjaGVzKCk7</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBDaXJjbGUgYzE9KENpcmNsZSlTaGFwZUZhY3RvcnkuZ2V0Q2lyY2xlKCJSZWQiKTsK</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5pbHV3YXRhci5pbnRlcnByZXRlci4qZGRkOwo=</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">IGZvcihpbnQgaT0wOyBpIDwgMjA7ICsraSkgewogICAgICAgICAgICBDaXJjbGUgY2lyY2xlID0gKENpcmNsZSlTaGFwZUZhY3RvcnkuZ2V0Q2lyY2xlKGdldFJhbmRvbUNvbG9yKCkpOwogICAgICAgICAgICBjaXJjbGUuc2V0WChnZXRSYW5kb21YKCkpOwogICAgICAgICAgICBjaXJjbGUuc2V0WShnZXRSYW5kb21ZKCkpOwogICAgICAgICAgICBjaXJjbGUuc2V0UmFkaXVzKDEwMCk7CiAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigicHJlOiIrcHJlLmdldENvbG9yKCkrInxub3c6IitjaXJjbGUuZ2V0Q29sb3IoKSk7CiAgICAgICAgICAgIHByZT1jaXJjbGU7Ci8vICAgICAgICAgICAgY2lyY2xlLmRyYXcoKTsKICAgICAgICB9</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBUYXJnZXQgdGFyZ2V0PW5ldyBUYXJnZXQoKTsKICAgICAgICB0YXJnZXQuYWRkKDEwKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKHByZT09Y2lyY2xlKTsK</text>
+        <text encoding="base64">ICAgIC8v5Yqg5rOV5pON5L2c77yM5q+P5qyh5bCG5Lyg5YWl55qE5YC85LiObnVt5L2c5Yqg5rOV6L+Q566X77yM5YaN5bCG57uT5p6c6L+U5ZueCg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTsK</text>
+      <register name="6" type="4">
+        <text>target.doCommand(new Command() {
+            @Override
+            public void execute() {
+                System.out.println(&quot;Execute command!&quot;);
+            }
+        });</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBJbnRlZ2VyLnZhbHVlT2YoKQo=</text>
+        <text encoding="base64">ICAgIENvbW1hbmQgY29tbWFuZDsKICAgIHB1YmxpYyB2b2lkIGRvQ29tbWFuZChDb21tYW5kIGNvbW1hbmQpewogICAgICAgIHRoaXMuY29tbWFuZD1jb21tYW5kOwogICAgICAgIGNvbW1hbmQuZXhlY3V0ZSgpOwogICAgfQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIE9yZGVyRmFjYWRlIG9yZGVyRmFjYWRlPW5ldyBPcmRlckZhY2FkZSgpOwo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIH07Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action Find</text>

@@ -100,7 +100,7 @@ function til() {
 			echo "usage: til new [title]"
 			return 1
 		else
-			hugo -s $HUGO_BASE new post/$2.md --editor subl3 && hugo -s $HUGO_BASE server
+			hugo -s $HUGO_BASE new post/$2.md --editor subl3
 		fi
 	elif [ "$1" = "status" ]; then
 		echo "\n===HUGO_CONENT==="
@@ -142,7 +142,7 @@ alias kk="kill -9"
 alias proxy="proxychains4 -q"
 alias sdm="sudo systemctl"
 alias ya="yaourt"
-alias yauu="yaourt -Syu --needed"
+alias yauu="yaourt -Syau --needed"
 alias yarm="yaourt -Rns"
 alias yarmd="yaourt -Rddns"
 alias yals="yaourt -Ql"

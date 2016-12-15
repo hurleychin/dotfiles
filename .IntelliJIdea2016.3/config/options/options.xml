@@ -9,7 +9,7 @@
     <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
     <property name="lastTip" value="1" />
     <property name="PLUGIN_FILTER" value="tran&#10;translation&#10;jre&#10;markdown&#10;ideav" />
-    <property name="ideavim.statistics.timestamp" value="1481724734328" />
+    <property name="ideavim.statistics.timestamp" value="1481811186227" />
     <property name="project.wizard.group" value="org.jetbrains.idea.maven.wizards.MavenModuleBuilder" />
     <property name="IJ_BASE_PACKAGE" value="com.company" />
     <property name="project.wizard.template" value="Java" />
