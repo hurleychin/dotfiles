@@ -145,11 +145,13 @@ alias ya="yaourt"
 alias yauu="yaourt -Syau --needed"
 alias yarm="yaourt -Rns"
 alias yarmd="yaourt -Rddns"
+alias yardd="yaourt -Rddn"
 alias yals="yaourt -Ql"
 alias yast="yaourt --stats"
 alias pauu="pacaur -Syau" # --devel
-alias tvd="sudo systemctl start teamviewerd"
 alias loc="sudo updatedb && locate"
+alias makepkg="makepkg -si"
+alias autoclean="sudo rm -rf /var/log/journal && yaourt -Sc && yaourt -Qdt"
 
 # Hook
 source /usr/share/doc/pkgfile/command-not-found.zsh

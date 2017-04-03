@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.light.tmTheme",
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
 	"font_face": "Monaco",
 	"font_size": 11,
 	"ignored_packages":
@@ -7,6 +7,6 @@
 	],
 	"spacegray_fileicons": true,
 	"spacegray_sidebar_font_large": true,
-	"theme": "Spacegray Light.sublime-theme",
+	"theme": "Spacegray.sublime-theme",
 	"vintage_start_in_command_mode": true
 }

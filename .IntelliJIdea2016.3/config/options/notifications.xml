@@ -1,6 +1,0 @@
-<application>
-  <component name="NotificationConfiguration">
-    <notification groupId="Framework Detection" shouldLog="false" />
-    <notification groupId="JRebel non-sticky" shouldLog="false" />
-  </component>
-</application>
