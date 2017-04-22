@@ -5,7 +5,7 @@ export ZSH=~/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="ys"
+ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -43,14 +43,14 @@ ZSH_THEME="ys"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
+ZSH_CUSTOM=~/.oh-my-zsh/custom
+ZSH_TMUX_AUTOSTART=true
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git github autojump colored-man-pages vi-mode command-not-found osx brew zsh-completions)
-autoload -U compinit && compinit
+plugins=(git github autoreload autojump colored-man-pages vi-mode osx brew tmux til)
 
 # User configuration
 # export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
@@ -77,56 +77,6 @@ export EDITOR='vim'
 # Preferred editor for PKGBUILD
 export VISUAL="vim"
 
-# TMUX
-if [[ -z "$TMUX" ]] ;then
-    ID="`tmux ls | grep -vm1 attached | cut -d: -f1`" # get the id of a deattached session
-    if [[ -z "$ID" ]] ;then # if not available create a new one
-        tmux new-session -c "$PWD"
-    else
-        tmux attach-session -t "$ID" # if available attach to it
-    fi
-fi
-
-
-# Some custom function
-function til() {
-
-	local HUGO_BASE=(~/Workspace/hugo-site)
-	
-	local HUGO_CONTENT=( --git-dir=$HUGO_BASE/.git --work-tree=$HUGO_BASE)
-	local HUGO_PUBLIC=( --git-dir=$HUGO_BASE/public/.git --work-tree=$HUGO_BASE/public)
-
-	if [ "$1" = "new" ]; then 
-		if [ "$2" = "" ]; then
-			echo "usage: til new [title]"
-			return 1
-		else
-			hugo -s $HUGO_BASE new post/$2.md --editor subl && hugo -s $HUGO_BASE server
-		fi
-	elif [ "$1" = "status" ]; then
-		echo "\n===HUGO_CONENT==="
-		git $HUGO_CONTENT status
-		echo "\n===HUGO_PUBLIC==="
-		hugo -s $HUGO_BASE && git $HUGO_PUBLIC status
-	elif [ "$1" = "push" ]; then
-		echo "\n===HUGO_CONENT==="
-		git $HUGO_CONTENT add -A && git $HUGO_CONTENT commit --no-verify -m "[$(date +'%Y-%m-%d %H:%M:%S')]$2" && git $HUGO_CONTENT push
-		echo "\n===HUGO_PUBLIC==="
-		git $HUGO_PUBLIC add -A && git $HUGO_PUBLIC commit --no-verify -m "[$(date +'%Y-%m-%d %H:%M:%S')]$2" && git $HUGO_PUBLIC push
-	elif [ "$1" = "pull" ]; then
-		echo "\n===HUGO_CONENT==="
-		git $HUGO_CONTENT pull 
-		echo "\n===HUGO_PUBLIC==="
-		git $HUGO_PUBLIC pull 
-	elif [ "$1" = "view" ]; then
-		hugo -s $HUGO_BASE server
-	else
-		echo "usage: til <new|view|status|push|pull> [<args>]"
-		return 1
-	fi
-
-}
-
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -140,4 +90,18 @@ alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
 alias kk="kill -9"
 alias proxy="proxychains4 -q"
+alias ssh@arch="ssh 192.168.1.100"
 
+# Custom key binds
+bindkey '^F' forward-word
+bindkey '^B' backward-delete-word
+
+# Extras
+
+if [[ $- = *i* ]]; then 
+	source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+	source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+fi
+
+fpath=(/usr/local/share/zsh-completions $fpath)
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
