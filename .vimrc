@@ -102,4 +102,6 @@
 " Other setting {
     "automatically reload vimrc when it's saved
     au BufWritePost .vimrc so ~/.vimrc
+	"fix color in tmux
+	set background=dark
 " }
