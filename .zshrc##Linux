@@ -109,6 +109,7 @@ alias repair-sogou="rm -rf ~/.config/SogouPY ~/.config/SogouPY.users ~/.config/s
 alias showerr="journalctl -b -p 3" # err=3 | warning=4
 alias ssh@mbp="ssh qinhulin-mbp"
 alias mkinit="sudo mkinitcpio -p"
+alias mirror-update="sudo reflector --country 'China' --age 12 --protocol http --sort rate --save /etc/pacman.d/mirrorlist"
 
 # Custom key binds
 bindkey '^F' forward-word

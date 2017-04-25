@@ -10,7 +10,7 @@ bind C-a send-prefix
 
 # vi-copy mode
 bind Space copy-mode
-bind -t vi-copy 'v' begin-selection
+bind-key -T copy-mode-vi 'v' send -X begin-selection
 bind p paste-buffer  # paste from the top pate buffer
 #bind -t vi-copy Escape cancel # break the copycat so removed
 
