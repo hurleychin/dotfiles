@@ -5,7 +5,7 @@ export ZSH=/usr/share/oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="ys"
+ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -44,7 +44,7 @@ DISABLE_AUTO_UPDATE="true"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM=~/.oh-my-zsh/custom/plugins
+ZSH_CUSTOM=~/.oh-my-zsh/custom
 ZSH_TMUX_AUTOSTART=true
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
@@ -106,10 +106,12 @@ alias loc="sudo updatedb && locate"
 alias makepkg="makepkg -si"
 alias system-clean="sudo rm -rf /var/log/journal && yaourt -Sc && yaourt -Qdt"
 alias repair-sogou="rm -rf ~/.config/SogouPY ~/.config/SogouPY.users ~/.config/sogou-qimpanel"
-alias showerr="journalctl -b -p 3" # err=3 | warning=4
+alias system-err="journalctl -b -p 3" # err=3 | warning=4
 alias ssh@mbp="ssh qinhulin-mbp"
 alias mkinit="sudo mkinitcpio -p"
 alias mirror-update="sudo reflector --country 'China' --age 12 --protocol http --sort rate --save /etc/pacman.d/mirrorlist"
+alias synergys="systemctl --user start synergys"
+alias grub-mkconfig="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
 # Custom key binds
 bindkey '^F' forward-word
