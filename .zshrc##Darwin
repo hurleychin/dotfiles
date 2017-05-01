@@ -105,3 +105,4 @@ fi
 
 fpath=(/usr/local/share/zsh-completions $fpath)
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
+export PATH="/usr/local/opt/curl/bin:$PATH"
