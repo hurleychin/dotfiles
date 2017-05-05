@@ -51,7 +51,7 @@ ZSH_TMUX_AUTOSTART=true
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(autoreload autojump colored-man-pages vi-mode command-not-found tmux)
+plugins=(autoreload autojump colored-man-pages vi-mode command-not-found tmux thefuck)
 
 # User configuration
 # export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
@@ -110,6 +110,8 @@ alias showerr="journalctl -b -p 3" # err=3 | warning=4
 alias ssh@mbp="ssh qinhulin-mbp"
 alias mkinit="sudo mkinitcpio -p"
 alias mirror-update="sudo reflector --country 'China' --age 12 --protocol http --sort rate --save /etc/pacman.d/mirrorlist"
+alias C="cd /mnt/c"
+alias D="cd /mnt/d"
 
 # Custom key binds
 bindkey '^F' forward-word
