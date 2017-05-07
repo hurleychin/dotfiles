@@ -37,16 +37,12 @@
 	"""""""""""""""""""" Add plugins start """""""""""""""""""" 
 	"vim surround
 	Plugin 'tpope/vim-surround'
-	"tabular (text filtering and alignment)
-	Plugin 'godlygeek/tabular' 
 	"NERD tree
 	Plugin 'scrooloose/nerdtree'
 	"Easy Motion
 	Plugin 'easymotion/vim-easymotion'
 	"vim-fugitive ( a Git wrapper so awesome )
 	Plugin 'tpope/vim-fugitive'
-	"tagbar (displays tags in a windows)
-	Plugin 'majutsushi/tagbar'
 	"ctrlp (Full path fuzzy file, buffer, mru, tag, ... finder for Vim.)
 	Plugin 'ctrlpvim/ctrlp.vim'
 	"vim-exchange
@@ -77,8 +73,6 @@
 	nmap <Leader>a O<ESC>
 	" ZS map to :update
 	nmap ZS :update<CR>
-	" toggle tagbar
-	nnoremap <Leader>t :TagbarToggle<CR>
 	" instant markdown
 	map <Leader>m :InstantMarkdownPreview<CR>
 	" CtrlP
