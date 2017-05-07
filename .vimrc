@@ -57,6 +57,9 @@
 	Plugin 'tpope/vim-eunuch'
 	"vim-toml
 	Plugin 'cespare/vim-toml'
+	"vim-airline
+	Plugin 'vim-airline/vim-airline'
+	Plugin 'vim-airline/vim-airline-themes'
 	"""""""""""""""""""" Add plugins end """""""""""""""""""""" 
 	" All of your Plugins must be added before the following line
 	call vundle#end()            " required
@@ -104,4 +107,6 @@
     au BufWritePost .vimrc so ~/.vimrc
 	"fix color in tmux
 	set background=dark
+	"use xmllint format xml
+	au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
 " }
