@@ -5,7 +5,8 @@ export ZSH=~/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
+ZSH_THEME="ys"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -44,13 +45,17 @@ ZSH_THEME="robbyrussell"
 
 # Would you like to use another custom folder than $ZSH/custom?
 ZSH_CUSTOM=~/.oh-my-zsh/custom
+
+# Plugin settings
 ZSH_TMUX_AUTOSTART=true
+ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
+ZSH_TMUX_AUTOCONNECT=false
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git github autoreload autojump colored-man-pages vi-mode osx brew tmux til)
+plugins=(autoreload autojump brew colored-man-pages vi-mode thefuck tmux til zsh-autosuggestions zsh-syntax-highlighting)
 
 # User configuration
 # export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
@@ -63,7 +68,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 #if [[ -n $SSH_CONNECTION ]]; then
-export EDITOR='vim'
+export EDITOR='nvim'
 #else
 #  export EDITOR='mvim'
 #fi
@@ -75,7 +80,7 @@ export EDITOR='vim'
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 # Preferred editor for PKGBUILD
-export VISUAL="vim"
+export VISUAL="nvim"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -85,6 +90,8 @@ export VISUAL="vim"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias vim="nvim"
+alias vimdiff="nvim -d"
 alias ZS="source ~/.zshrc"
 alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
@@ -97,12 +104,5 @@ bindkey '^F' forward-word
 bindkey '^B' backward-delete-word
 
 # Extras
-
-if [[ $- = *i* ]]; then 
-	source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-	source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-fi
-
-fpath=(/usr/local/share/zsh-completions $fpath)
-export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 export PATH="/usr/local/opt/curl/bin:$PATH"
