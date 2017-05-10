@@ -2,7 +2,7 @@
 set -g default-shell /usr/bin/zsh
 
 # general setting 
-set -g mouse off
+set -g mouse on
 set -g display-time 1000
 # vi is good
 setw -g mode-keys vi
@@ -12,14 +12,14 @@ set -g prefix C-a
 bind C-a send-prefix
 
 # vi-copy mode
-#bind Space copy-mode
-#bind -t vi-copy 'v' begin-selection
-#bind p paste-buffer  # paste from the top pate buffer
-#bind -t vi-copy Escape cancel # break the copycat so removed
+bind Space copy-mode
+bind -t vi-copy 'v' begin-selection
+bind p paste-buffer  # paste from the top pate buffer
+bind -t vi-copy Escape cancel # break the copycat so removed
 
 # mouse scrolling
-#bind -T root WheelUpPane   if-shell -F -t = "#{alternate_on}" "send-keys -M" "select-pane -t =; copy-mode -e; send-keys -M"
-#bind -T root WheelDownPane if-shell -F -t = "#{alternate_on}" "send-keys -M" "select-pane -t =; send-keys -M"
+bind -T root WheelUpPane   if-shell -F -t = "#{alternate_on}" "send-keys -M" "select-pane -t =; copy-mode -e; send-keys -M"
+bind -T root WheelDownPane if-shell -F -t = "#{alternate_on}" "send-keys -M" "select-pane -t =; send-keys -M"
 
 # edit configuration
 bind E new-window -n '~/.tmux.conf' "sh -c '\${EDITOR:-vim} ~/.tmux.conf'"
@@ -35,8 +35,8 @@ bind R source-file ~/.tmux.conf \; display 'Tmux source done.'
 set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-sensible'
 set -g @plugin 'tmux-plugins/tmux-resurrect'
-#set -g @plugin 'tmux-plugins/tmux-copycat'
-#set -g @plugin 'tmux-plugins/tmux-yank'
+set -g @plugin 'tmux-plugins/tmux-copycat'
+set -g @plugin 'tmux-plugins/tmux-yank'
 set -g @plugin 'tmux-plugins/tmux-prefix-highlight'
 set -g @plugin 'tmux-plugins/tmux-pain-control'
 

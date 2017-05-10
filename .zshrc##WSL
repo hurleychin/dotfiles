@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/usr/share/oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -15,7 +15,7 @@ ZSH_THEME="robbyrussell"
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
-DISABLE_AUTO_UPDATE="true"
+# DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
@@ -44,14 +44,18 @@ DISABLE_AUTO_UPDATE="true"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM=~/.oh-my-zsh/custom/plugins
+ZSH_CUSTOM=~/.oh-my-zsh/custom
+
+# Plugin settings
 ZSH_TMUX_AUTOSTART=true
+ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
+
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(autoreload autojump colored-man-pages vi-mode command-not-found tmux thefuck)
+plugins=(autoreload autojump colored-man-pages tmux thefuck vi-mode zsh-autosuggestions zsh-syntax-highlighting)
 
 # User configuration
 # export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
@@ -64,7 +68,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 #if [[ -n $SSH_CONNECTION ]]; then
-export EDITOR='vim'
+export EDITOR='nvim'
 #else
 #  export EDITOR='mvim'
 #fi
@@ -76,7 +80,12 @@ export EDITOR='vim'
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 # Preferred editor for PKGBUILD
-export VISUAL="vim"
+export VISUAL="nvim"
+
+# Autosuggestions key binds
+bindkey '^F' forward-word
+bindkey '^B' backward-delete-word
+bindkey '^E' autosuggest-accept
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -88,42 +97,9 @@ export VISUAL="vim"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias ZS="source ~/.zshrc"
-alias zshrc="vim ~/.zshrc"
-alias vimrc="vim ~/.vimrc"
+alias zshrc="nvim ~/.zshrc"
+alias vimrc="nvim ~/.vimrc"
 alias kk="kill -9"
-alias proxy="proxychains4 -q"
-alias sdm="sudo systemctl"
-alias sdmu="systemctl --user"
-alias ya="yaourt"
-alias yauu="yaourt -Syyu --aur"
-alias yarm="yaourt -Rns"
-alias yarmd="yaourt -Rddns"
-alias yardd="yaourt -Rddn"
-alias yals="yaourt -Ql"
-alias yast="yaourt --stats"
-alias pauu="pacaur -Syau" # --devel
 alias loc="sudo updatedb && locate"
-alias makepkg="makepkg -si"
-alias system-clean="sudo rm -rf /var/log/journal && yaourt -Sc && yaourt -Qdt"
-alias repair-sogou="rm -rf ~/.config/SogouPY ~/.config/SogouPY.users ~/.config/sogou-qimpanel"
-alias showerr="journalctl -b -p 3" # err=3 | warning=4
-alias ssh@mbp="ssh qinhulin-mbp"
-alias mkinit="sudo mkinitcpio -p"
-alias mirror-update="sudo reflector --country 'China' --age 12 --protocol http --sort rate --save /etc/pacman.d/mirrorlist"
 alias C="cd /mnt/c"
 alias D="cd /mnt/d"
-
-# Custom key binds
-bindkey '^F' forward-word
-bindkey '^B' backward-delete-word
-
-# Gradle completion
-fpath=(/home/qinhulin/.zsh/gradle-completion $fpath)
-
-# Extras
-if [[ $- = *i* ]]; then 
-	source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-	source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-	source /usr/share/doc/pkgfile/command-not-found.zsh
-fi
-
