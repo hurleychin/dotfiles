@@ -105,6 +105,7 @@
 	au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
 
 	"airline config
+	set background=dark
 	set noshowmode
 	let g:airline_powerline_fonts=1
 	let g:airline_theme='molokai'
