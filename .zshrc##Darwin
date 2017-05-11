@@ -81,6 +81,10 @@ export EDITOR='nvim'
 # Preferred editor for PKGBUILD
 export VISUAL="nvim"
 
+# Custom key binds
+bindkey '^F' forward-word
+bindkey '^B' backward-delete-word
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -97,10 +101,6 @@ alias vimrc="vim ~/.vimrc"
 alias kk="kill -9"
 alias proxy="proxychains4 -q"
 alias ssh@arch="ssh 192.168.1.100"
-
-# Custom key binds
-bindkey '^F' forward-word
-bindkey '^B' backward-delete-word
 
 # Extras
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
