@@ -89,8 +89,7 @@ export EDITOR='nvim'
 export VISUAL="nvim"
 
 # Custom key binds
-bindkey '^F' forward-word
-bindkey '^B' backward-delete-word
+bindkey '^F' forward-char
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -116,7 +115,7 @@ alias yarmd="yaourt -Rddns"
 alias yardd="yaourt -Rddn"
 alias yals="yaourt -Ql"
 alias yast="yaourt --stats"
-alias pauu="pacaur -Syau" # --devel
+alias pauu="pacaur -Syua" # --devel
 alias loc="sudo updatedb && locate"
 alias makepkg="makepkg -si"
 alias system-clean="sudo rm -rf /var/log/journal && yaourt -Sc && yaourt -Qdt"
@@ -124,7 +123,7 @@ alias repair-sogou="rm -rf ~/.config/SogouPY ~/.config/SogouPY.users ~/.config/s
 alias systemd-err="journalctl -b -p 3" # err=3 | warning=4
 alias ssh@mbp="ssh qinhulin-mbp"
 alias mkinit="sudo mkinitcpio -p"
-alias update-mirror="sudo reflector --country 'China' --age 12 --protocol http --sort rate --save /etc/pacman.d/mirrorlist"
+alias update-mirror="sudo reflector --country China --age 12 --protocol http --sort rate --save /etc/pacman.d/mirrorlist"
 alias synergys="systemctl --user start synergys"
 alias grub-mkconfig="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias unbs="rm -- *(-@D)"
