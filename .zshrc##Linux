@@ -53,21 +53,20 @@ ZSH_CUSTOM=~/.oh-my-zsh/custom
 #git clone https://github.com/zsh-users/zsh-syntax-highlighting $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 
 # Plugin settings
-ZSH_TMUX_AUTOSTART=true
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
-ZSH_TMUX_AUTOCONNECT=false
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(autoreload autojump colored-man-pages vi-mode thefuck tmux til zsh-autosuggestions zsh-completions zsh-syntax-highlighting)
+plugins=(autojump colored-man-pages vi-mode thefuck til zsh-autosuggestions zsh-completions zsh-syntax-highlighting)
 
 # User configuration
 # export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
+autoload -Uz compinit && compinit
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -127,4 +126,3 @@ alias update-mirror="sudo reflector --country China --age 12 --protocol http --s
 alias synergys="systemctl --user start synergys"
 alias grub-mkconfig="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias unbs="rm -- *(-@D)"
-
