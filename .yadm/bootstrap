@@ -1,0 +1,17 @@
+#!/bin/bash
+
+cd "$HOME"
+ZSH_CUSTOM=~/.oh-my-zsh/custom
+
+echo -e "\n\033[1;31m:: Install oh-my-zsh \033[m"
+git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-completions $ZSH_CUSTOM/plugins/zsh-completions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+
+echo -e "\n\033[1;31m:: Install tpm \033[m"
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+echo -e "\n\033[1;31m:: Install vundle \033[m"
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+

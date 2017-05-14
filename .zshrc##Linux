@@ -5,8 +5,7 @@ export ZSH=~/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-# ZSH_THEME="robbyrussell"
-ZSH_THEME="ys"
+ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -46,11 +45,6 @@ ZSH_THEME="ys"
 
 # Would you like to use another custom folder than $ZSH/custom?
 ZSH_CUSTOM=~/.oh-my-zsh/custom
-
-# Install custom plugins
-#git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
-#git clone https://github.com/zsh-users/zsh-completions $ZSH_CUSTOM/plugins/zsh-completions
-#git clone https://github.com/zsh-users/zsh-syntax-highlighting $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 
 # Plugin settings
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
@@ -125,4 +119,4 @@ alias mkinit="sudo mkinitcpio -p"
 alias update-mirror="sudo reflector --country China --age 12 --protocol http --sort rate --save /etc/pacman.d/mirrorlist"
 alias synergys="systemctl --user start synergys"
 alias grub-mkconfig="sudo grub-mkconfig -o /boot/grub/grub.cfg"
-alias unbs="rm -- *(-@D)"
+alias rmbl="rm -- *(-@D)"

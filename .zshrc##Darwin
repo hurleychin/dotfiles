@@ -33,6 +33,7 @@ ZSH_THEME="robbyrussell"
 # COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
+
 # under VCS as dirty. This makes repository status check for large repositories
 # much, much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
@@ -46,21 +47,20 @@ ZSH_THEME="robbyrussell"
 ZSH_CUSTOM=~/.oh-my-zsh/custom
 
 # Plugin settings
-ZSH_TMUX_AUTOSTART=true
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
-ZSH_TMUX_AUTOCONNECT=false
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(autoreload autojump brew colored-man-pages vi-mode thefuck tmux til zsh-autosuggestions zsh-completions zsh-syntax-highlighting)
+plugins=(autojump brew colored-man-pages vi-mode thefuck til zsh-autosuggestions zsh-completions zsh-syntax-highlighting)
 
 # User configuration
 # export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
+autoload -Uz compinit && compinit
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -82,8 +82,7 @@ export EDITOR='nvim'
 export VISUAL="nvim"
 
 # Custom key binds
-bindkey '^F' forward-word
-bindkey '^B' backward-delete-word
+bindkey '^F' forward-char
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
