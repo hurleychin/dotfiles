@@ -1,7 +1,9 @@
+export TERM="xterm-256color"
 
 #################### Load antigen start #################### 
 #git clone https://github.com/zsh-users/antigen.git
-source /usr/share/zsh/share/antigen.zsh
+
+source /home/qinhulin/.antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
@@ -21,18 +23,18 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Load the theme.
 #antigen theme robbyrussell
-antigen theme https://github.com/denysdovhan/spaceship-zsh-theme spaceship
+antigen bundle mafredri/zsh-async
+antigen bundle sindresorhus/pure
 
 # Tell Antigen that you're done.
 antigen apply
-#################### Load antigen end ##################### 
 
+#################### Load antigen end ##################### 
 
 # User configuration
 # export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
-export TERM="xterm-256color"
-source /home/qinhulin/.spaceshiprc
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
@@ -52,8 +54,15 @@ export EDITOR='nvim'
 # Preferred editor for PKGBUILD
 export VISUAL="nvim"
 
+# Disabling suggestion for large buffers
+ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
+
 # Custom key binds
 bindkey '^F' forward-char
+
+# Single line prompt
+prompt_newline='%666v'
+PROMPT=" $PROMPT"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -70,7 +79,7 @@ alias ZS="source ~/.zshrc"
 alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
 alias kk="kill -9"
-alias proxy="proxychains4 -q"
+alias proxy="proxychains4 -q "
 alias sdm="sudo systemctl"
 alias sdmu="systemctl --user"
 alias ya="yaourt"
