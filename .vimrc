@@ -19,6 +19,10 @@
 	set nowrap
 	set undofile
 	set undodir=~/.vim
+	set fileencodings=ucs-bom,utf-8,gbk,gb2312,cp936,gb18030,big5,latin-1
+    set encoding=utf-8
+    set termencoding=utf-8
+    set fileencoding=utf-8
 " }
 
 " Vundle plugins {
