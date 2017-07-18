@@ -59,7 +59,7 @@ export VISUAL="nvim"
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
 
 # Custom key binds
-bindkey '^F' forward-char
+bindkey '^F' forward-word
 
 # Single line prompt
 prompt_newline='%666v'
