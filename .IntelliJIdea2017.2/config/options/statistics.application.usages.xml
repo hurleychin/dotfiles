@@ -1,0 +1,167 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="svn working copy format">
+      <project id="tzxsaas_pos" values="1.8" collectionTime="1473390033609" />
+      <project id="tzxsaas" values="1.8" collectionTime="1473651529174" />
+      <project id="20160902tzxsaas_pos" values="1.8" collectionTime="1473259436990" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="tzxsaas_pos" values="ECMAScript 5.1" collectionTime="1473390033611" />
+      <project id="tzxsaas" values="ECMAScript 5.1" collectionTime="1473651529176" />
+      <project id="20160902tzxsaas_pos" values="ECMAScript 5.1" collectionTime="1473259437017" />
+    </group>
+    <group name="module type">
+      <project id="tzxsaas_pos" values="JAVA_MODULE" collectionTime="1473390033539" />
+      <project id="tzxsaas" values="JAVA_MODULE" collectionTime="1473651528756" />
+      <project id="20160902tzxsaas_pos" values="JAVA_MODULE" collectionTime="1473259436801" />
+    </group>
+    <group name="vcs">
+      <project id="tzxsaas_pos" values="svn" collectionTime="1473390033538" />
+      <project id="tzxsaas" values="svn" collectionTime="1473651528754" />
+      <project id="20160902tzxsaas_pos" values="svn" collectionTime="1473259436800" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="tzxsaas_pos" values="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory.Local" collectionTime="1473390033540" />
+      <project id="tzxsaas" values="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory.Local" collectionTime="1473651528758" />
+    </group>
+    <group name="file-type">
+      <project id="tzxsaas_pos" values="JSP,JavaScript,Manifest,ARCHIVE,SWF,IDEA_MODULE,Native,SourceMap,CSS,JSON Schema,Images,PLAIN_TEXT,UNKNOWN,JAVA,SQL,HTML,Eclipse,Properties,XML" collectionTime="1473390033605" />
+      <project id="tzxsaas" values="JSON Schema,HTML,SourceMap,JAVA,SWF,CSS,IDEA_MODULE,JSP,PLAIN_TEXT,Native,JavaScript,Properties,XML,Images,Manifest,Eclipse,ARCHIVE,UNKNOWN,SQL" collectionTime="1473651529056" />
+      <project id="20160902tzxsaas_pos" values="SWF,CLASS,CSS,JSP,SourceMap,Images,JavaScript,HTML,JSON,Manifest,SQL,JAVA,Eclipse,Properties,XML,IDEA_MODULE,PLAIN_TEXT,ARCHIVE,UNKNOWN,Native" collectionTime="1473259436964" />
+    </group>
+    <group name="images.ide.background">
+      <project id="tzxsaas_pos" values="frame 0,editor 0" collectionTime="1473390033606" />
+      <project id="tzxsaas" values="frame 0,editor 0" collectionTime="1473651529168" />
+    </group>
+    <group name="Spring MVC">
+      <project id="tzxsaas_pos" values="viewResolver_UrlBasedViewResolver_,mvcModelsInProject_1,viewResolvers_1,fileset_webXml,fileset_webXml" collectionTime="1473390033796" />
+      <project id="tzxsaas" values="viewResolvers_0,mvcModelsInProject_1" collectionTime="1473651529282" />
+    </group>
+    <group name="spring">
+      <project id="tzxsaas_pos" values="fileset_autodetect_com.intellij.spring.web.config.webXml.XmlServletFileSet,fileset_autodetect_com.intellij.spring.web.config.webXml.XmlServletFileSet" collectionTime="1473390033614" />
+      <project id="tzxsaas" values="fileset_configFiles5,fileset_autodetect_com.intellij.spring.web.config.webXml.XmlServletFileSet,fileset_xmlContext,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/mvc,xmlNS_www.springframework.org/schema/tx,xmlNS_www.springframework.org/schema/data/mongo,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/data/mongo,xmlNS_www.springframework.org/schema/task,xmlNS_www.springframework.org/schema/aop,fileset_autodetect_com.intellij.spring.web.config.webXml.XmlServletFileSet,xmlNS_www.springframework.org/schema/tx,xmlNS_www.springframework.org/schema/mvc,xmlNS_www.springframework.org/schema/aop,fileset_configFiles5,xmlNS_www.springframework.org/schema/p,xmlNS_www.springframework.org/schema/p,fileset_configFiles5,fileset_xmlContext,fileset_xmlContext,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/p,xmlNS_www.springframework.org/schema/task,xmlNS_www.springframework.org/schema/p" collectionTime="1473651529216" />
+      <project id="20160902tzxsaas_pos" values="xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/tx,xmlNS_www.springframework.org/schema/data/mongo,xmlNS_www.springframework.org/schema/mvc,fileset_xmlContext,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/tx,xmlNS_www.springframework.org/schema/aop,xmlNS_www.springframework.org/schema/data/mongo,xmlNS_www.springframework.org/schema/task,xmlNS_www.springframework.org/schema/data/mongo,xmlNS_www.springframework.org/schema/p,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/p,fileset_configFiles10,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/mvc,xmlNS_www.springframework.org/schema/aop,xmlNS_www.springframework.org/schema/p,xmlNS_www.springframework.org/schema/p,xmlNS_www.springframework.org/schema/aop,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/p,xmlNS_www.springframework.org/schema/task,xmlNS_www.springframework.org/schema/tx,xmlNS_www.springframework.org/schema/task,xmlNS_www.springframework.org/schema/p" collectionTime="1473259437051" />
+    </group>
+    <group name="frameworks">
+      <project id="tzxsaas_pos" values="Spring,web" collectionTime="1473390033539" />
+      <project id="tzxsaas" values="web,Spring" collectionTime="1473651528756" />
+      <project id="20160902tzxsaas_pos" values="web,Spring" collectionTime="1473259436801" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="tzxsaas_pos" values="Project,Project" collectionTime="1473390033611" />
+      <project id="tzxsaas" values="Project,Project" collectionTime="1473651529176" />
+      <project id="20160902tzxsaas_pos" values="Project,Project" collectionTime="1473259437017" />
+    </group>
+    <group name="Git">
+      <project id="tzxsaas_pos" values="config.save.policy.STASH,config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.ssh.enabled,config.warn.about.crlf.enabled,config.force.push.enabled" collectionTime="1473390033609" />
+      <project id="tzxsaas" values="config.ssh.enabled,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.warn.about.crlf.enabled,config.push.autoupdate.disabled" collectionTime="1473651529172" />
+      <project id="20160902tzxsaas_pos" values="config.ssh.enabled,config.save.policy.STASH,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.cherry-pick.autocommit.disabled,config.force.push.enabled" collectionTime="1473259436990" />
+    </group>
+    <group name="libraries">
+      <project id="tzxsaas_pos" values="spring,spring-mvc,TransactionJavaee,JMS" collectionTime="1473390033606" />
+      <project id="tzxsaas" values="spring,spring-mvc,JMS,TransactionJavaee" collectionTime="1473651529168" />
+      <project id="20160902tzxsaas_pos" values="spring-mvc,JMS,spring,TransactionJavaee" collectionTime="1473259436983" />
+    </group>
+    <group name="language-level">
+      <project id="tzxsaas_pos" values="JDK_1_7" collectionTime="1473390033607" />
+      <project id="tzxsaas" values="JDK_1_7" collectionTime="1473651529170" />
+      <project id="20160902tzxsaas_pos" values="JDK_1_7" collectionTime="1473259436989" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="4" />
+      <entry feature="OpenInBrowser.Chrome" count="1" />
+      <entry feature="OpenInBrowser.Safari" count="1" />
+      <entry feature="StripeButton[Version_Control].shown" count="2" />
+      <entry feature="debugger.reload.classes" count="46" />
+      <entry feature="diff.DiffSettings.Tool.Side-by-side viewer" count="1" />
+      <entry feature="diff.DiffSettings.Tool.Unified viewer" count="1" />
+      <entry feature="diff.TextDiffSettings.HighlightPolicy.BY_LINE" count="2" />
+      <entry feature="diff.TextDiffSettings.IgnorePolicy.DEFAULT" count="1" />
+      <entry feature="diff.TextDiffSettings.IgnorePolicy.IGNORE_WHITESPACES" count="1" />
+      <entry feature="execute.#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory.Coverage" count="5" />
+      <entry feature="execute.#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory.Debug" count="450" />
+      <entry feature="execute.#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory.JProfiler" count="23" />
+      <entry feature="execute.#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory.JRebel Debug" count="145" />
+      <entry feature="execute.#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory.JRebel Executor" count="3" />
+      <entry feature="execute.#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory.Run" count="300" />
+      <entry feature="execute.#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory.Run with VisualVM" count="1" />
+      <entry feature="execute.Application.Debug" count="174" />
+      <entry feature="execute.Application.JRebel Debug" count="2" />
+      <entry feature="execute.Application.Run" count="163" />
+      <entry feature="execute.JUnit.Debug" count="1" />
+      <entry feature="execute.JUnit.Run" count="19" />
+      <entry feature="execute.JarApplication.Debug" count="10" />
+      <entry feature="execute.JarApplication.Run" count="16" />
+      <entry feature="execute.MavenRunConfiguration.Debug" count="2" />
+      <entry feature="execute.MavenRunConfiguration.Run" count="24" />
+      <entry feature="execute.Remote.Debug" count="16" />
+      <entry feature="execute.SpringBootApplicationConfigurationType.Debug" count="18" />
+      <entry feature="execute.SpringBootApplicationConfigurationType.JRebel Debug" count="6" />
+      <entry feature="execute.SpringBootApplicationConfigurationType.Run" count="22" />
+      <entry feature="execute.SpringBootApplicationConfigurationType.Run with VisualVM" count="1" />
+      <entry feature="ide.help.Application_Servers_tool_window" count="1" />
+      <entry feature="ide.help.Colorblind_Settings" count="1" />
+      <entry feature="ide.help.ideaInterface.editor" count="4" />
+      <entry feature="ide.help.ideaInterface.run" count="1" />
+      <entry feature="ide.help.preferences.updates" count="2" />
+      <entry feature="ide.help.refactoring.extractInterface" count="1" />
+      <entry feature="ide.help.reference.dialogs.breakpoints" count="4" />
+      <entry feature="ide.help.reference.dialogs.diff.file" count="1" />
+      <entry feature="ide.help.top" count="8" />
+      <entry feature="ide.settings.Advanced" count="1" />
+      <entry feature="ide.settings.Appearance" count="65" />
+      <entry feature="ide.settings.Application&#10;Servers" count="1" />
+      <entry feature="ide.settings.Code_Style" count="7" />
+      <entry feature="ide.settings.Colors_&amp;_Fonts" count="15" />
+      <entry feature="ide.settings.Console_Font" count="15" />
+      <entry feature="ide.settings.Deployment" count="5" />
+      <entry feature="ide.settings.Edit_File_Template" count="1" />
+      <entry feature="ide.settings.Editor_Tabs" count="12" />
+      <entry feature="ide.settings.Excludes" count="17" />
+      <entry feature="ide.settings.File_Encodings" count="3" />
+      <entry feature="ide.settings.File_and_Code_Templates" count="1" />
+      <entry feature="ide.settings.Font" count="192" />
+      <entry feature="ide.settings.General" count="2" />
+      <entry feature="ide.settings.GitHub" count="1" />
+      <entry feature="ide.settings.HTTP_Proxy" count="1" />
+      <entry feature="ide.settings.Inspections" count="2" />
+      <entry feature="ide.settings.JRebel" count="1" />
+      <entry feature="ide.settings.JUnit_Generator" count="2" />
+      <entry feature="ide.settings.Java" count="3" />
+      <entry feature="ide.settings.Java_Compiler" count="17" />
+      <entry feature="ide.settings.Keymap" count="34" />
+      <entry feature="ide.settings.Maven" count="9" />
+      <entry feature="ide.settings.Notifications" count="1" />
+      <entry feature="ide.settings.Plugins" count="17" />
+      <entry feature="ide.settings.Project_Structure" count="11" />
+      <entry feature="ide.settings.System_Settings" count="1" />
+      <entry feature="ide.settings.Terminal" count="2" />
+      <entry feature="ide.settings.Tomcat_Server" count="2" />
+      <entry feature="ide.settings.Updates" count="7" />
+      <entry feature="ide.settings.Vim_Emulation" count="11" />
+      <entry feature="ide.settings.VisualVM_Launcher" count="1" />
+      <entry feature="ide.settings.Web_Browsers" count="1" />
+      <entry feature="idea.caches.invalidated" count="2" />
+      <entry feature="ideaapp.started" count="245" />
+      <entry feature="spring.SpringConfigurationCheck.FileCount.xml" count="617" />
+      <entry feature="spring.SpringFacetInspection.AddFacetFix" count="2" />
+      <entry feature="swing-designer.edit" count="28" />
+      <entry feature="swing-designer.open" count="2" />
+      <entry feature="terminal.win" count="19" />
+      <entry feature="tips.of.the.day.next" count="185" />
+      <entry feature="uml.ShowDiagram.JAVA" count="1" />
+      <entry feature="uml.ShowDiagram.JAVA.popup" count="3" />
+      <entry feature="uml.ShowDiagram.MAVEN" count="2" />
+      <entry feature="welcome.screen.WelcomScreen.ManageLicense" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.Configure" count="17" />
+      <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="4" />
+      <entry feature="welcome.screen.WelcomeScreen.Documentation" count="6" />
+      <entry feature="welcome.screen.WelcomeScreen.GetFromVcs" count="12" />
+      <entry feature="welcome.screen.WelcomeScreen.ImportProject" count="8" />
+      <entry feature="welcome.screen.WelcomeScreen.OpenProject" count="6" />
+      <entry feature="welcome.screen.WelcomeScreen.Settings" count="6" />
+    </counts>
+  </component>
+</application>

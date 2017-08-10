@@ -1,0 +1,24 @@
+<application>
+  <component name="ToolbarClicksCollector">
+    <counts>
+      <entry action="ChangesView.Revert@NavBarToolbar" count="25" />
+      <entry action="CheckinProject@NavBarToolbar" count="19" />
+      <entry action="Debug@NavBarToolbar" count="39" />
+      <entry action="Maven.Reimport@Maven_Navigator_Toolbar" count="12" />
+      <entry action="Maven.RunBuild@Maven_Navigator_Toolbar" count="2" />
+      <entry action="Maven.ToggleOffline@Maven_Navigator_Toolbar" count="2" />
+      <entry action="Run@NavBarToolbar" count="8" />
+      <entry action="ShowProjectStructureSettings@NavBarToolbar" count="11" />
+      <entry action="Stop@DebuggerToolbar" count="4" />
+      <entry action="Stop@NavBarToolbar" count="282" />
+      <entry action="Stop@RunnerToolbar" count="4" />
+      <entry action="Vcs.UpdateProject@NavBarToolbar" count="36" />
+      <entry action="com.intellij.diff.merge.MergeRequestProcessor$MyNextDifferenceAction@DiffToolbar" count="2" />
+      <entry action="com.intellij.find.editorHeaderActions.NextOccurrenceAction@EditorToolbar" count="7" />
+      <entry action="com.intellij.find.impl.FindPopupPanel$MySelectScopeToggleAction@EditorToolbar" count="6" />
+      <entry action="com.intellij.openapi.roots.ui.configuration.actions.ToggleSourcesStateAction@ProjectStructureContentEntries" count="6" />
+      <entry action="com.intellij.openapi.vcs.changes.actions.RollbackDialogAction@ChangesBrowser" count="1" />
+      <entry action="com.intellij.ui.CommonActionsPanel$MyActionButton@ToolbarDecorator" count="11" />
+    </counts>
+  </component>
+</application>
