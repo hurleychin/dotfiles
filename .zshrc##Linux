@@ -91,7 +91,7 @@ alias yast="yaourt --stats"
 alias pauu="pacaur -Syua" # --devel
 alias loc="sudo updatedb && locate"
 alias makepkg="makepkg -si"
-alias system-optimize="journalctl --vacuum-time=2weeks && yaourt -Sc && yaourt -Qdt && sudo pacman-optimize"
+alias system-optimize="sudo journalctl --vacuum-time=2weeks && yaourt -Sc && yaourt -Qdt && sudo pacman-optimize"
 alias repair-sogou="rm -rf ~/.config/SogouPY ~/.config/SogouPY.users ~/.config/sogou-qimpanel"
 alias system-err="journalctl -b -p 3 && systemctl --state=failed" # err=3 | warning=4
 alias ssh@mbp="ssh qinhulin-mbp"
