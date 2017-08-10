@@ -80,5 +80,7 @@ alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
 alias kk="kill -9"
 alias loc="sudo updatedb && locate"
+alias auau="sudo apt update && sudo apt upgrade"
 alias C="cd /mnt/c"
 alias D="cd /mnt/d"
+
