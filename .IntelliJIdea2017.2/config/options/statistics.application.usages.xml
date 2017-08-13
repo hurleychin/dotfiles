@@ -155,13 +155,13 @@
       <entry feature="uml.ShowDiagram.JAVA.popup" count="3" />
       <entry feature="uml.ShowDiagram.MAVEN" count="2" />
       <entry feature="welcome.screen.WelcomScreen.ManageLicense" count="1" />
-      <entry feature="welcome.screen.WelcomeScreen.Configure" count="17" />
+      <entry feature="welcome.screen.WelcomeScreen.Configure" count="18" />
       <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="4" />
       <entry feature="welcome.screen.WelcomeScreen.Documentation" count="6" />
       <entry feature="welcome.screen.WelcomeScreen.GetFromVcs" count="12" />
       <entry feature="welcome.screen.WelcomeScreen.ImportProject" count="8" />
       <entry feature="welcome.screen.WelcomeScreen.OpenProject" count="6" />
-      <entry feature="welcome.screen.WelcomeScreen.Settings" count="6" />
+      <entry feature="welcome.screen.WelcomeScreen.Settings" count="7" />
     </counts>
   </component>
 </application>
