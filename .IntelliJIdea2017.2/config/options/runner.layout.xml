@@ -1044,9 +1044,23 @@
         <option name="tabIndex" value="2" />
         <option name="window" value="0" />
       </ViewImpl>
+      <ViewImpl>
+        <option name="ID" value="$USER_HOME$/.IntelliJIdea2017.2/system/tomcat/Unnamed_saaspos/logs/localhost.2017-08-20.log" />
+        <option name="minimizedInGrid" value="false" />
+        <option name="placeInGrid" value="bottom" />
+        <option name="tabIndex" value="1" />
+        <option name="window" value="0" />
+      </ViewImpl>
+      <ViewImpl>
+        <option name="ID" value="$USER_HOME$/.IntelliJIdea2017.2/system/tomcat/Unnamed_saaspos/logs/catalina.2017-08-20.log" />
+        <option name="minimizedInGrid" value="false" />
+        <option name="placeInGrid" value="bottom" />
+        <option name="tabIndex" value="2" />
+        <option name="window" value="0" />
+      </ViewImpl>
       <TabImpl>
         <option name="displayName" value="Server" />
-        <option name="leftProportion" value="0.16498055" />
+        <option name="leftProportion" value="0.16458073" />
       </TabImpl>
       <TabImpl>
         <option name="bottomProportion" value="0.0" />
@@ -1103,6 +1117,16 @@
       <TabImpl>
         <option name="defaultIndex" value="14" />
         <option name="index" value="14" />
+      </TabImpl>
+      <TabImpl>
+        <option name="bottomProportion" value="0.0" />
+        <option name="defaultIndex" value="15" />
+        <option name="index" value="1" />
+      </TabImpl>
+      <TabImpl>
+        <option name="bottomProportion" value="0.0" />
+        <option name="defaultIndex" value="16" />
+        <option name="index" value="2" />
       </TabImpl>
       <General />
     </runner>
@@ -3553,6 +3577,7 @@
         <option name="index" value="2" />
       </TabImpl>
       <TabImpl>
+        <option name="bottomProportion" value="0.0" />
         <option name="defaultIndex" value="22" />
         <option name="index" value="3" />
       </TabImpl>
@@ -3621,16 +3646,6 @@
       <TabImpl>
         <option name="defaultIndex" value="20" />
         <option name="index" value="20" />
-      </TabImpl>
-      <TabImpl>
-        <option name="bottomProportion" value="0.0" />
-        <option name="defaultIndex" value="21" />
-        <option name="index" value="2" />
-      </TabImpl>
-      <TabImpl>
-        <option name="bottomProportion" value="0.0" />
-        <option name="defaultIndex" value="22" />
-        <option name="index" value="3" />
       </TabImpl>
       <General />
     </runner>

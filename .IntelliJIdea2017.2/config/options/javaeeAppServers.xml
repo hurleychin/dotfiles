@@ -3,16 +3,13 @@
     <ServerDK NAME="Tomcat 7.0.59">
       <option name="SOURCE_INTEGRATION_NAME" value="Tomcat Server" />
       <DATA>
-        <option name="CATALINA_HOME" value="D:/apps/apache-tomcat-7.0.59" />
+        <option name="CATALINA_HOME" value="/opt/apache-tomcat-7.0.75" />
         <option name="CATALINA_BASE" value="" />
       </DATA>
     </ServerDK>
     <LibraryTable>
       <library name="Tomcat 7.0.59">
-        <CLASSES>
-          <root url="jar://D:/apps/apache-tomcat-7.0.59/lib/jsp-api.jar!/" />
-          <root url="jar://D:/apps/apache-tomcat-7.0.59/lib/servlet-api.jar!/" />
-        </CLASSES>
+        <CLASSES />
         <JAVADOC />
         <SOURCES />
       </library>

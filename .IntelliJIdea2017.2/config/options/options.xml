@@ -4,16 +4,16 @@
     <property name="DefaultHtmlDoctype.Refreshed" value="2" />
     <property name="evlsprt3.15" value="13" />
     <property name="installed.kotlin.plugin.version" value="1.1.3-release-IJ2017.2-2" />
-    <property name="android-component-compatibility-check" value="1502350321549" />
+    <property name="android-component-compatibility-check" value="1503113845219" />
     <property name="PLUGIN_FILTER" value="log&#10;maven&#10;gist&#10;get&#10;lua" />
-    <property name="ideavim.statistics.timestamp" value="1502344430891" />
-    <property name="file.chooser.recent.files" value="D:/SVN/20170525tzxsaas-mvn/pom.xml&#10;D:/SVN/saaspos&#10;D:/SVN/saaspos_20170525/src/main/webapp&#10;D:/SVN/saaspos_20170525/src/webapp&#10;D:/apps/Java/jdk1.7.0_80&#10;D:/SVN/saaspos_20170525&#10;D:/SVN&#10;D:/SVN/20170406tzxsaas_b&#10;D:/SVN/20170406tzxsaas&#10;D:/SVN/20170406tzxsaas/tzxsaas.iml&#10;D:/SVN/20170525tzxsaas&#10;D:/SVN/20170227tzxsaas&#10;D:/SVN/tzx_lib&#10;D:/SVN/tzxsaas_0227&#10;D:/SVN/tzxsaas_dev&#10;D:/SVN/tzxsaas_master/pom.xml&#10;D:/SVN/tzxsaas&#10;D:/SVN/tzxsaas/pom.xml&#10;D:/SVN/order-minitor/pom.xml&#10;D:/SVN/order-minitor&#10;D:/SVN/NewPos_BOHInterface/WebRoot&#10;D:/SVN/NewPos_BOHInterface/WebRoot/META-INF/context.xml&#10;D:/SVN/NewPos_BOHInterface/WebRoot/WEB-INF/web.xml&#10;D:/SVN/NewPos_BOHInterface/WebRoot/WEB-INF/lib&#10;D:/SVN/NewPos_BOHInterface&#10;D:/SVN/tzxsaas_master&#10;C:/Program Files/Java/jdk1.7.0_80/bin/jvisualvm.exe&#10;D:/apps/jprofiler10.0.1/bin/jprofiler.exe&#10;D:/迅雷下载/idea-jprofiler.zip&#10;D:/SVN/tzxsaas_master/tzxsaas_master.iml" />
+    <property name="ideavim.statistics.timestamp" value="1503241020177" />
+    <property name="file.chooser.recent.files" value="/home/qinhulin&#10;/opt/apache-tomcat-7.0.75&#10;/home/qinhulin/.m2/settings_tzxsaas.xml&#10;/opt/maven&#10;/usr/lib/jvm/java-7-jdk&#10;/home/qinhulin/Workspace/SVN/saaspos&#10;D:/SVN/20170525tzxsaas-mvn/pom.xml&#10;D:/SVN/saaspos&#10;D:/SVN/saaspos_20170525/src/main/webapp&#10;D:/SVN/saaspos_20170525/src/webapp&#10;D:/apps/Java/jdk1.7.0_80&#10;D:/SVN/saaspos_20170525&#10;D:/SVN&#10;D:/SVN/20170406tzxsaas_b&#10;D:/SVN/20170406tzxsaas&#10;D:/SVN/20170406tzxsaas/tzxsaas.iml&#10;D:/SVN/20170525tzxsaas&#10;D:/SVN/20170227tzxsaas&#10;D:/SVN/tzx_lib&#10;D:/SVN/tzxsaas_0227&#10;D:/SVN/tzxsaas_dev&#10;D:/SVN/tzxsaas_master/pom.xml&#10;D:/SVN/tzxsaas&#10;D:/SVN/tzxsaas/pom.xml&#10;D:/SVN/order-minitor/pom.xml&#10;D:/SVN/order-minitor&#10;D:/SVN/NewPos_BOHInterface/WebRoot&#10;D:/SVN/NewPos_BOHInterface/WebRoot/META-INF/context.xml&#10;D:/SVN/NewPos_BOHInterface/WebRoot/WEB-INF/web.xml&#10;D:/SVN/NewPos_BOHInterface/WebRoot/WEB-INF/lib" />
     <property name="toolwindow.stripes.buttons.info.shown" value="true" />
     <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
     <property name="lastTip" value="11" />
     <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Sources" />
-    <property name="last.imported.location" value="D:/SVN/20170406tzxsaas_b" />
-    <property name="create.project.preferred.importer" value="Existing Sources" />
+    <property name="last.imported.location" value="$USER_HOME$/Workspace/SVN/saaspos" />
+    <property name="create.project.preferred.importer" value="Maven" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
     <property name="FrameworksFinderRecursivePanel[0]" value="0.32206118" />
     <property name="SpringBeansModulesPanel[0]" value="0.32206118" />
@@ -61,7 +61,7 @@
     <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.0" value="137" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.86102235" />
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.78435755" />
     <property name="INSPECTION_FILTER_HISTORY" value="" />
     <property name="SpringBeansModulesPanel[1]" value="0.22962113" />
     <property name="CommittedChanges.SplitterProportions.0" value="700" />
@@ -85,7 +85,7 @@
     <property name="vcs.history.splitter.proportion" value="0.75536484" />
     <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="0" />
     <property name="evlsprt3.171" value="18" />
-    <property name="file.gist.reindex.count" value="105177" />
+    <property name="file.gist.reindex.count" value="107122" />
     <property name="fileTypeChangedCounter" value="2" />
     <property name="plugins.preselection.path" value="D:/迅雷下载" />
     <property name="jdk.selected.JAVA_MODULE" value="1.7" />

@@ -76,10 +76,16 @@
         <mark key="]" line="56" column="21" />
         <mark key="." line="56" column="21" />
       </file>
-      <file name="/Dummy.txt" timestamp="1502364738823">
+      <file name="/Dummy.txt" timestamp="1503244863343">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="13" />
         <mark key="." line="0" column="13" />
+      </file>
+      <file name="$USER_HOME$/Workspace/SVN/saaspos/src/main/webapp/config/systemParam.properties" timestamp="1503244830886">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="0" />
+        <mark key="^" line="6" column="5" />
+        <mark key="." line="3" column="0" />
       </file>
       <file name="D:/SVN/saaspos/src/main/resources/spring-config.xml" timestamp="1502352710387">
         <mark key="[" line="68" column="23" />
@@ -104,6 +110,8 @@
         <mark key="]" line="0" column="27" />
         <mark key="." line="0" column="27" />
       </file>
+      <file name="$USER_HOME$/Workspace/SVN/saaspos/src/main/java/com/tzx/base/listener/PosSystemInitListener.java" timestamp="1503242591977" />
+      <file name="$USER_HOME$/Workspace/SVN/saaspos/src/main/java/com/tzx/pos/service/rest/StoreInstallRest.java" timestamp="1503241626463" />
       <file name="D:/SVN/TzxFrame/src_client/com/tzx/client/upgrade/Updater.java" timestamp="1499931180446">
         <mark key="[" line="72" column="0" />
         <mark key="]" line="72" column="0" />
@@ -113,7 +121,6 @@
       <file name="D:/SVN/saaspos_20170525/src_pos/com/tzx/pos/base/dao/BaseDao.java" timestamp="1502109565651">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="D:/SVN/saaspos/.idea/workspace.xml" timestamp="1502361373567" />
       <file name="D:/SVN/saaspos_20170525/WebRoot/config/systemParam.properties" timestamp="1502259894834">
         <mark key="[" line="29" column="0" />
         <mark key="]" line="29" column="0" />
@@ -234,7 +241,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Iwo=</text>
+        <text encoding="base64">aWZzdGFydD10cnVlCiNpZnN0YXJ0PWZhbHNlCiNVcmw9dGNwOi8vd3d3LmU3ZTYubmV0OjY2NjYKI1VzZXI9CiNQYXNzd29yZD0K</text>
       </register>
       <register name="-" type="4">
         <text>c</text>
@@ -246,34 +253,34 @@
         <text encoding="base64">ICAgICAgICAgICAgQ29ubmVjdGlvbkZhY3RvcnkJY29ubmVjdGlvbkZhY3Rvcnk9bmV3IEFjdGl2ZU1RQ29ubmVjdGlvbkZhY3RvcnkoIiIsICIiLCAiZmFpbG92ZXI6KHRjcDovL2p5cnhkZW1vLm1laXNoaWppYS5jb206NjYwMSkiICk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Iwo=</text>
+        <text encoding="base64">aWZzdGFydD10cnVlCiNpZnN0YXJ0PWZhbHNlCiNVcmw9dGNwOi8vd3d3LmU3ZTYubmV0OjY2NjYKI1VzZXI9CiNQYXNzd29yZD0K</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Iwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Iwo=</text>
       </register>
       <register name="s" type="2">
         <text encoding="base64">ICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJwYXNzd29yZCIgdmFsdWU9InExdzJlM3I0Lz4K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Iwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Iwo=</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
       <register name="7" type="2">
+        <text encoding="base64">Iwo=</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text encoding="base64">CiNmb3Igd2VjaGF0IHByb2R1Y3QKcHJvZHVjdF93ZWNoYXRfc2VydmljZV9pcD1odHRwOi8vd3d3LmU3ZTYubmV0CnByb2R1Y3Rfd2VjaGF0X3NjbWlwPWh0dHA6Ly93d3cuZTdlNi5uZXQvY3JtUmVzdC9wb3N0CnByb2R1Y3Rfd2VjaGF0X3Bvc19wYXltZW50PWh0dHA6Ly93d3cuZTdlNi5uZXQvcG9zUmVzdC9wb3N0Cgojd2VjaGF0IHNlcnZpY2UgbWNoIG1lc3NhZ2UJc3RhcnQKd2VjaGF0X3NlcnZpY2VfbWNoX2FwcGlkPXd4MGNlMzNhZDllMDZkNzExMwp3ZWNoYXRfc2VydmljZV9tY2hfbWNoX2lkPTEyNzAyMjYyMDEKd2VjaGF0X3NlcnZpY2VfbWNoX2FwaV9zZWNlcnQ9dHp4c2Fhc3Rlc3R3ZWl4aW5wYXkyMDE1MDkxNTE3MDIKd2VjaGF0X3NlcnZpY2VfbWNoX2NlcnQ9Y2VydC9hcGljbGllbnRfY2VydC5wMTIKI3dlY2hhdCBzZXJ2aWNlIG1jaCBtZXNzYWdlIGVuZA==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>set scrolloff=5</text>

@@ -118,6 +118,13 @@
     <location key="svn.sslCredentialsDialog.0.0.1366.768" x="215" y="235" />
     <location key="SettingsEditor.0.0.1680.1050" x="301" y="110" />
     <location key="new project wizard.0.0.1680.1050" x="468" y="159" />
+    <location key="FileChooserDialogImpl.0.0.1680.1050" x="623" y="140" />
+    <location key="NewModule_or_Project.wizard.0.0.1680.1050" x="422" y="68" />
+    <location key="WELCOME_SCREEN.0.0.1680.1050" x="839" y="458" />
+    <location key="CommitChangelistDialog2.0.0.1680.1050" x="254" y="27" />
+    <location key="WebDeployment.AddServerDialog.v.1.0.0.1680.1050" x="731" y="407" />
+    <location key="find.popup.0.0.1680.1050" x="479" y="154" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1680.1050" x="298" y="189" />
     <size key="SettingsEditor.0.0.1366.768" width="1200" height="738" />
     <size key="GitCloneDialog.0.0.1366.768" width="715" height="223" />
     <size key="NewModule_or_Project.wizard.0.0.1366.768" width="852" height="715" />
@@ -235,5 +242,26 @@
     <size key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1366.768" width="941" height="408" />
     <size key="SettingsEditor.0.0.1680.1050" width="1119" height="695" />
     <size key="new project wizard.0.0.1680.1050" width="734" height="597" />
+    <size key="FileChooserDialogImpl.0.0.1680.1050" width="754" height="634" />
+    <size key="NewModule_or_Project.wizard.0.0.1680.1050" width="843" height="778" />
+    <size key="CommitChangelistDialog2.0.0.1680.1050" width="1410" height="1023" />
+    <size key="find.popup.0.0.1680.1050" width="960" height="747" />
+    <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1680.1050" width="1084" height="765" />
+    <size key="GridCell.Tab.0.left.0.0.1680.1050" width="1630" height="265" />
+    <size key="GridCell.Tab.0.center.0.0.1680.1050" width="1630" height="265" />
+    <size key="GridCell.Tab.0.right.0.0.1680.1050" width="1630" height="265" />
+    <size key="GridCell.Tab.0.bottom.0.0.1680.1050" width="1630" height="265" />
+    <size key="GridCell.Tab.16.left.0.0.1680.1050" width="1630" height="265" />
+    <size key="GridCell.Tab.16.center.0.0.1680.1050" width="1630" height="265" />
+    <size key="GridCell.Tab.16.right.0.0.1680.1050" width="1630" height="265" />
+    <size key="GridCell.Tab.16.bottom.0.0.1680.1050" width="1630" height="265" />
+    <size key="GridCell.Tab.1.left.0.0.1680.1050" width="1630" height="265" />
+    <size key="GridCell.Tab.1.center.0.0.1680.1050" width="1630" height="265" />
+    <size key="GridCell.Tab.1.right.0.0.1680.1050" width="1630" height="265" />
+    <size key="GridCell.Tab.1.bottom.0.0.1680.1050" width="1630" height="265" />
+    <size key="GridCell.Tab.2.left.0.0.1680.1050" width="1630" height="265" />
+    <size key="GridCell.Tab.2.center.0.0.1680.1050" width="1630" height="265" />
+    <size key="GridCell.Tab.2.right.0.0.1680.1050" width="1630" height="265" />
+    <size key="GridCell.Tab.2.bottom.0.0.1680.1050" width="1630" height="265" />
   </component>
 </application>

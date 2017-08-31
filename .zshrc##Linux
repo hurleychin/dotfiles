@@ -93,7 +93,7 @@ alias loc="sudo updatedb && locate"
 alias makepkg="makepkg -si"
 alias system-optimize="sudo journalctl --vacuum-time=2weeks && yaourt -Sc && yaourt -Qdt && sudo pacman-optimize"
 alias repair-sogou="rm -rf ~/.config/SogouPY ~/.config/SogouPY.users ~/.config/sogou-qimpanel"
-alias system-err="journalctl -b -p 3 && systemctl --state=failed" # err=3 | warning=4
+alias system-err="journalctl -b -p err..warning  && systemctl --state=failed" # err=3 | warning=4
 alias ssh@mbp="ssh qinhulin-mbp"
 alias mkinit="sudo mkinitcpio -p"
 alias update-mirror="sudo reflector --country China --age 12 --protocol http --sort rate --save /etc/pacman.d/mirrorlist"

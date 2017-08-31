@@ -1,7 +1,29 @@
 <application>
   <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Workspace/SVN/saaspos" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/Workspace/SVN/saaspos" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/Workspace/SVN/saaspos" />
     <option name="additionalInfo">
       <map>
+        <entry key="$USER_HOME$/Workspace/SVN/saaspos">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-172.3544.35" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1503241012315" />
+              <option name="buildTimestamp" value="1501515086030" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
         <entry key="D:/IdeaProject">
           <value>
             <RecentProjectMetaInfo>
@@ -279,6 +301,6 @@
         </entry>
       </map>
     </option>
-    <option name="lastProjectLocation" value="D:/SVN" />
+    <option name="lastProjectLocation" value="$USER_HOME$/Workspace/SVN" />
   </component>
 </application>

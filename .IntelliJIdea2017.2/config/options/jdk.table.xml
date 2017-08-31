@@ -4,7 +4,7 @@
       <name value="1.7" />
       <type value="JavaSDK" />
       <version value="java version &quot;1.7.0_80&quot;" />
-      <homePath value="D:/apps/Java/jdk1.7.0_80" />
+      <homePath value="/usr/lib/jvm/java-7-jdk" />
       <roots>
         <annotationsPath>
           <root type="composite">
@@ -13,25 +13,23 @@
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root type="simple" url="jar://D:/apps/Java/jdk1.7.0_80/jre/lib/charsets.jar!/" />
-            <root type="simple" url="jar://D:/apps/Java/jdk1.7.0_80/jre/lib/deploy.jar!/" />
-            <root type="simple" url="jar://D:/apps/Java/jdk1.7.0_80/jre/lib/ext/access-bridge-64.jar!/" />
-            <root type="simple" url="jar://D:/apps/Java/jdk1.7.0_80/jre/lib/ext/dnsns.jar!/" />
-            <root type="simple" url="jar://D:/apps/Java/jdk1.7.0_80/jre/lib/ext/jaccess.jar!/" />
-            <root type="simple" url="jar://D:/apps/Java/jdk1.7.0_80/jre/lib/ext/localedata.jar!/" />
-            <root type="simple" url="jar://D:/apps/Java/jdk1.7.0_80/jre/lib/ext/sunec.jar!/" />
-            <root type="simple" url="jar://D:/apps/Java/jdk1.7.0_80/jre/lib/ext/sunjce_provider.jar!/" />
-            <root type="simple" url="jar://D:/apps/Java/jdk1.7.0_80/jre/lib/ext/sunmscapi.jar!/" />
-            <root type="simple" url="jar://D:/apps/Java/jdk1.7.0_80/jre/lib/ext/zipfs.jar!/" />
-            <root type="simple" url="jar://D:/apps/Java/jdk1.7.0_80/jre/lib/javaws.jar!/" />
-            <root type="simple" url="jar://D:/apps/Java/jdk1.7.0_80/jre/lib/jce.jar!/" />
-            <root type="simple" url="jar://D:/apps/Java/jdk1.7.0_80/jre/lib/jfr.jar!/" />
-            <root type="simple" url="jar://D:/apps/Java/jdk1.7.0_80/jre/lib/jfxrt.jar!/" />
-            <root type="simple" url="jar://D:/apps/Java/jdk1.7.0_80/jre/lib/jsse.jar!/" />
-            <root type="simple" url="jar://D:/apps/Java/jdk1.7.0_80/jre/lib/management-agent.jar!/" />
-            <root type="simple" url="jar://D:/apps/Java/jdk1.7.0_80/jre/lib/plugin.jar!/" />
-            <root type="simple" url="jar://D:/apps/Java/jdk1.7.0_80/jre/lib/resources.jar!/" />
-            <root type="simple" url="jar://D:/apps/Java/jdk1.7.0_80/jre/lib/rt.jar!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-7-jdk/jre/lib/charsets.jar!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-7-jdk/jre/lib/deploy.jar!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-7-jdk/jre/lib/ext/dnsns.jar!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-7-jdk/jre/lib/ext/localedata.jar!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-7-jdk/jre/lib/ext/sunec.jar!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-7-jdk/jre/lib/ext/sunjce_provider.jar!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-7-jdk/jre/lib/ext/sunpkcs11.jar!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-7-jdk/jre/lib/ext/zipfs.jar!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-7-jdk/jre/lib/javaws.jar!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-7-jdk/jre/lib/jce.jar!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-7-jdk/jre/lib/jfr.jar!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-7-jdk/jre/lib/jfxrt.jar!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-7-jdk/jre/lib/jsse.jar!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-7-jdk/jre/lib/management-agent.jar!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-7-jdk/jre/lib/plugin.jar!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-7-jdk/jre/lib/resources.jar!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-7-jdk/jre/lib/rt.jar!/" />
           </root>
         </classPath>
         <javadocPath>
@@ -39,7 +37,7 @@
         </javadocPath>
         <sourcePath>
           <root type="composite">
-            <root type="simple" url="jar://D:/apps/Java/jdk1.7.0_80/src.zip!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-7-jdk/src.zip!/" />
           </root>
         </sourcePath>
       </roots>
