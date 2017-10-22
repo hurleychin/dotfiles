@@ -82,5 +82,4 @@ alias proxy="proxychains4 -q "
 alias ssh@arch="ssh 192.168.1.100"
 
 # Extras
-export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 export PATH="/usr/local/opt/curl/bin:$PATH"
