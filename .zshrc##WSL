@@ -5,7 +5,7 @@ unsetopt BG_NICE
 #################### Load antigen start #################### 
 #git clone https://github.com/zsh-users/antigen.git
 
-source /home/qinhulin/.antigen/antigen.zsh
+source $HOME/.antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
