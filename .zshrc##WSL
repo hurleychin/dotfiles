@@ -1,7 +1,5 @@
 export TERM="xterm-256color"
-# Fix autojump issuse on wsl
-unsetopt BG_NICE
-
+#
 #################### Load antigen start #################### 
 #git clone https://github.com/zsh-users/antigen.git
 
@@ -73,14 +71,11 @@ PROMPT=" $PROMPT"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias sudo="sudo "
 #alias vim="nvim"
 #alias vimdiff="nvim -d"
 alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
 alias kk="kill -9"
-alias loc="sudo updatedb && locate"
-alias auau="sudo apt update && sudo apt upgrade"
-alias C="cd /mnt/c"
-alias D="cd /mnt/d"
+alias loc="updatedb && locate"
+alias auau="apt update && apt upgrade"
 
