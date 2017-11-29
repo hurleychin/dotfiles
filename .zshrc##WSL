@@ -78,4 +78,4 @@ alias vimrc="vim ~/.vimrc"
 alias kk="kill -9"
 alias loc="updatedb && locate"
 alias auau="apt update && apt upgrade"
-
+alias apti="apt install"
