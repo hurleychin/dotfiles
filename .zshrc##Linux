@@ -85,7 +85,6 @@ alias ya="yaourt"
 alias yauu="yaourt -Syu"
 alias yarm="yaourt -Rns"
 alias yarmd="yaourt -Rddns"
-alias yardd="yaourt -Rddn"
 alias yals="yaourt -Ql"
 alias yast="yaourt --stats"
 alias pauu="pacaur -Syua" # --devel
@@ -95,8 +94,4 @@ alias system-optimize="sudo journalctl --vacuum-time=2weeks && yaourt -Sc && yao
 alias repair-sogou="rm -rf ~/.config/SogouPY ~/.config/SogouPY.users ~/.config/sogou-qimpanel"
 alias system-err="journalctl -b -p err..warning  && systemctl --state=failed" # err=3 | warning=4
 alias ssh@mbp="ssh qinhulin-mbp"
-alias mkinit="sudo mkinitcpio -p"
-alias update-mirror="sudo reflector --country China --age 12 --protocol http --sort rate --save /etc/pacman.d/mirrorlist"
-alias synergys="systemctl --user start synergys"
-alias grub-mkconfig="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias rmbl="rm -- *(-@D)"
