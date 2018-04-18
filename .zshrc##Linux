@@ -96,3 +96,5 @@ alias repair-sogou="rm -rf ~/.config/SogouPY ~/.config/SogouPY.users ~/.config/s
 alias system-err="journalctl -b -p err..warning  && systemctl --state=failed" # err=3 | warning=4
 alias ssh@mbp="ssh qinhulin-mbp"
 alias rmbl="rm -- *(-@D)"
+alias ssh2vps="ssh root@evil.com -p 29563"
+alias ec='emacsclient -a="" -t -c '
