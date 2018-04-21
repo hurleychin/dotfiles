@@ -79,3 +79,5 @@ alias kk="kill -9"
 alias loc="updatedb && locate"
 alias auau="apt update && apt upgrade"
 alias apti="apt install"
+alias proxy="proxychains4 -q "
+alias ec='emacsclient -a="" -c '
