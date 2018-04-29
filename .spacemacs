@@ -319,11 +319,11 @@ you should place your code here."
 ;; auto-generate custom variable definitions.
 (setq org-capture-templates
       '(("t" "Todo" checkitem (file+headline "~/org/gtd.org" "Inbox")
-        " [ ] %? %U\n %i\n %a")
+        " [ ] %?  %U\n  %i\n  %a")
         ("j" "Journal" entry (file+olp+datetree "~/org/journal.org")
-         "* %?\nEntered on %U\n  %i\n  %a")
+         "* %?\n  %i\n  %a")
         ("n" "Note" entry (file+headline "~/org/note.org" "Uncategorezed")
-         "* %?\n %U\n  %i\n %a")
+         "* %? %U\n  %i\n  %a")
         ))
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
