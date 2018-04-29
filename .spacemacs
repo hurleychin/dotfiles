@@ -323,7 +323,7 @@ you should place your code here."
         ("j" "Journal" entry (file+olp+datetree "~/org/journal.org")
          "* %?\n  %i\n  %a")
         ("n" "Note" entry (file+headline "~/org/note.org" "Uncategorezed")
-         "* %? %U\n  %i\n  %a")
+         "* %?\n  %i\n  %a")
         ))
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
