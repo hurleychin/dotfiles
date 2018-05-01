@@ -40,8 +40,10 @@ vnoremap <Tab> >gv
 vnoremap <S-Tab> <gv
 
 " exiting Insert Mode will automatically disable the Input Method
-set imdisable
+"set imdisable
+
 
 " Emulated Vim Plugins
 set surround
+
 
