@@ -98,3 +98,4 @@ alias ssh@mbp="ssh qinhulin-mbp"
 alias rmbl="rm -- *(-@D)"
 alias ssh2vps="ssh root@evil.com -p 29563"
 alias ec='emacsclient -a="" -t -c '
+alias rdp2work='xfreerdp /w:1400 /h:900 /u:qinhulin /p:q123 /v:aurl.so:7949'
