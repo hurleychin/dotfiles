@@ -79,7 +79,10 @@ alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
 alias kk="kill -9"
 alias proxy="proxychains4 -q "
-alias ssh@arch="ssh 192.168.1.100"
+alias ssh@arch="ssh qinhulin@192.168.1.109"
+alias ssh@vps="ssh root@evil.com -p 29563"
+alias ec='emacsclient -a="" -t -c '
+
 
 # Extras
 export PATH="/usr/local/opt/curl/bin:$PATH"
