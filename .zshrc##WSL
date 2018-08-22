@@ -81,3 +81,6 @@ alias auau="apt update && apt upgrade"
 alias apti="apt install"
 alias proxy="proxychains4 -q "
 alias ec='emacsclient -a="" -c '
+alias ssh@mac="ssh qinhulin@192.168.1.108"
+alias ssh@hyperv="ssh qinhulin@192.168.1.121"
+alias ssh@vps="ssh evilgo.cf" #Vps.7****1
