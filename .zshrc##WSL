@@ -1,4 +1,8 @@
 export TERM="xterm-256color"
+
+# To reslove zsh nice(5) failed problem
+unsetopt BG_NICE
+
 #
 #################### Load antigen start #################### 
 #git clone https://github.com/zsh-users/antigen.git
@@ -76,11 +80,8 @@ PROMPT=" $PROMPT"
 alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
 alias kk="kill -9"
-alias loc="updatedb && locate"
-alias auau="apt update && apt upgrade"
-alias apti="apt install"
 alias proxy="proxychains4 -q "
 alias ec='emacsclient -a="" -c '
-alias ssh@mac="ssh qinhulin@192.168.1.108"
-alias ssh@hyperv="ssh qinhulin@192.168.1.121"
-alias ssh@vps="ssh evilgo.cf" #Vps.7****1
+alias ssh@mac="ssh qinhulin@192.168.0.108"
+alias ssh@hyperv="ssh qinhulin@192.168.0.104"
+alias ssh@vps="ssh root@evilgo.cf"
