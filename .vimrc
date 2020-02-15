@@ -2,8 +2,8 @@
 	set nocompatible            	" Must be first line, be iMproved,Vundle required
 	filetype off                	" Vundle required
 	syntax enable
-	set number
-	set relativenumber
+	"set number
+	"set relativenumber
 	set ignorecase
 	set smartcase
 	set hlsearch
@@ -23,6 +23,7 @@
     set encoding=utf-8
     set termencoding=utf-8
     set fileencoding=utf-8
+	colors desert
 " }
 
 " Vundle plugins {

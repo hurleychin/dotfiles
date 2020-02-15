@@ -5,3 +5,4 @@
 	email = qinhulin@gmail.com
 [core]
 	autocrlf = input
+	quotepath = false
