@@ -1,6 +1,0 @@
-<application>
-  <component name="ScratchFileService">
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/threadDump1.txt" value="TEXT" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/threadDump2.txt" value="TEXT" />
-  </component>
-</application>
