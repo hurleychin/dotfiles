@@ -1,3 +1,4 @@
+export LC_ALL=en_US.UTF-8
 export TERM="xterm-256color"
 
 #################### Load antigen start #################### 
@@ -40,7 +41,7 @@ antigen apply
 
 # Preferred editor for local and remote sessions
 #if [[ -n $SSH_CONNECTION ]]; then
-export EDITOR='nvim'
+export EDITOR='vim'
 #else
 #  export EDITOR='mvim'
 #fi
@@ -52,7 +53,7 @@ export EDITOR='nvim'
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 # Preferred editor for PKGBUILD
-export VISUAL="nvim"
+export VISUAL="vim"
 
 # Disabling suggestion for large buffers
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
@@ -72,23 +73,11 @@ PROMPT=" $PROMPT"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias sudo="sudo "
-alias vim="nvim"
-alias vimdiff="nvim -d"
-alias zshrc="vim ~/.zshrc"
-alias vimrc="vim ~/.vimrc"
-alias kk="kill -9"
 alias proxy="proxychains4 -q "
-alias ssh@arch="ssh qinhulin@192.168.1.109"
-alias ssh@vps="ssh root@evil.com -p 29563"
-alias ec='emacsclient -a="" -t -c '
-
 
 # Extras
-export PATH="/usr/local/opt/curl/bin:$PATH"
-
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
+export PATH="/usr/local/opt/curl/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
