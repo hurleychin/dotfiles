@@ -76,8 +76,5 @@ PROMPT=" $PROMPT"
 alias proxy="proxychains4 -q "
 
 # Extras
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 export PATH="/usr/local/opt/curl/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
