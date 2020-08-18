@@ -18,7 +18,7 @@
 	set scrolloff=5
 	set nowrap
 	set undofile
-	set undodir=~/.vim/undo
+	set undodir=~/.vim
 	set fileencodings=ucs-bom,utf-8,gbk,gb2312,cp936,gb18030,big5,latin-1
     set encoding=utf-8
     set termencoding=utf-8
@@ -28,31 +28,22 @@
 
 " Vundle plugins {
 
-	"set the runtime path to include Vundle and initialize
-	set rtp+=~/.vim/bundle/Vundle.vim
-	call vundle#begin()
-	"let Vundle manage Vundle, required
-	Plugin 'VundleVim/Vundle.vim'
+	""" set the runtime path to include Vundle and initialize
+	"set rtp+=~/.vim/bundle/Vundle.vim
+	"call vundle#begin()
+	""" let Vundle manage Vundle, required
+	"Plugin 'VundleVim/Vundle.vim'
 	"""""""""""""""""""" Add plugins start """""""""""""""""""" 
 	"Plugin 'mbbill/undotree'
 	"""""""""""""""""""" Add plugins end """""""""""""""""""""" 
-	" All of your Plugins must be added before the following line
-	call vundle#end()            " required
-	filetype plugin indent on    " required
+	""" All of your Plugins must be added before the following line
+	"call vundle#end()            " required
+	"filetype plugin indent on    " required
 " }
 
 " Key mappings {
     "clear search highlight
     noremap <silent><Leader>/ :set hls!<CR>
-	" Use <Leader>a/b add a new white-space line above/belowe cursor in normal mode
-	nmap <Leader>b o<ESC>
-	nmap <Leader>a O<ESC>
-	" ZS map to :update
-	nmap ZS :update<CR>
-	" CtrlP
-	let g:ctrlp_cmd = 'CtrlPBuffer'
-	" gb map to gT
-	nnoremap gb gT
 	" split line
 	nnoremap <C-j> i<CR><Esc>
 	" yank to system clipborad
@@ -66,10 +57,6 @@
 " }
 
 " Other setting {
-    "automatically reload vimrc when it's saved
-    au BufWritePost .vimrc so ~/.vimrc
-	"fix color in tmux
-	"set background=dark
 	"use xmllint format xml
 	au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
 " }
