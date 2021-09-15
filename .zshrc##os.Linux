@@ -13,8 +13,8 @@ antigen use oh-my-zsh
 antigen bundle autojump
 antigen bundle command-not-found
 antigen bundle colored-man-pages
-antigen bundle docker
-antigen bundle vi-mode
+#antigen bundle docker
+#antigen bundle vi-mode
 antigen bundle thefuck
 
 # Syntax highlighting bundle.
@@ -24,8 +24,8 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Load the theme.
 #antigen theme robbyrussell
-antigen bundle mafredri/zsh-async
-antigen bundle sindresorhus/pure
+#antigen bundle sindresorhus/pure
+#antigen bundle mafredri/zsh-async
 
 # Tell Antigen that you're done.
 antigen apply
@@ -58,12 +58,18 @@ export VISUAL="vim"
 # Disabling suggestion for large buffers
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
 
+# Single line prompt
+#prompt pure
+#prompt_newline='%666v'
+#PROMPT=" $PROMPT"
+
+#grml-zsh-keybinding
+setopt vi
+
 # Custom key binds
+bindkey '^E' autosuggest-accept
 bindkey '^F' forward-word
 
-# Single line prompt
-prompt_newline='%666v'
-PROMPT=" $PROMPT"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh

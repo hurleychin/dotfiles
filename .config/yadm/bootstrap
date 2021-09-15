@@ -2,7 +2,7 @@
 
 cd "$HOME"
 
-echo -e "\n\033[1;31m:: Install oh-my-zsh \033[m"
+echo -e "\n\033[1;31m:: Install antigen \033[m"
 git clone https://github.com/zsh-users/antigen.git ~/.antigen
 
 #echo -e "\n\033[1;31m:: Install vundle \033[m"
