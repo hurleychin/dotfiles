@@ -1,9 +1,9 @@
 #!/bin/bash
 
-cd "$HOME"
+#cd "$HOME"
 
-echo -e "\n\033[1;31m:: Install antigen \033[m"
-git clone https://github.com/zsh-users/antigen.git ~/.antigen
+#echo -e "\n\033[1;31m:: Install antigen \033[m"
+#git clone https://github.com/zsh-users/antigen.git ~/.antigen
 
 #echo -e "\n\033[1;31m:: Install vundle \033[m"
 #git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
