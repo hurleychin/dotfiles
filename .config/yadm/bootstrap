@@ -1,9 +1,18 @@
 #!/bin/bash
 
-#cd "$HOME"
+cd "$HOME"
 
-#echo -e "\n\033[1;31m:: Install antigen \033[m"
-#git clone https://github.com/zsh-users/antigen.git ~/.antigen
+echo -e "\n\033[1;31m:: Install oh-my-zsh \033[m"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+echo -e "\n\033[1;31m:: Install zsh-completions \033[m"
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+
+echo -e "\n\033[1;31m:: Install zsh-syntax-highlighting \033[m"
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+echo -e "\n\033[1;31m:: Install zsh-autosuggestions \033[m"
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 #echo -e "\n\033[1;31m:: Install vundle \033[m"
 #git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
