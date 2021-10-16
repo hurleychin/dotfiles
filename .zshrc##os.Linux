@@ -126,7 +126,6 @@ alias system-optimize="sudo journalctl --vacuum-time=2weeks"
 alias system-err="journalctl -fp err  && systemctl --state=failed" # err=3 | warning=4
 alias ssh@mbp="ssh qinhulin-mbp"
 alias rmbl="rm -- *(-@D)"
-alias anboxsw="anbox session-manager --single-window --window-size=360,640"
 alias cheat="cht.sh "
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
