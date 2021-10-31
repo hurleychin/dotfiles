@@ -7,6 +7,8 @@ fi
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$PATH:/home/qinhulin/.local/bin
+
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/qinhulin/.oh-my-zsh"
@@ -106,6 +108,7 @@ export ARCHFLAGS="-arch x86_64"
 #export SSH_KEY_PATH="~/.ssh/dsa_id"
 export TERM="xterm-256color"
 export SOUND_CARD_IRQ="IWI"
+export LIBVIRT_DEFAULT_URI="qemu:///system"
 #export DISTCC_DIR=/tmp/distc
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
@@ -117,6 +120,7 @@ export SOUND_CARD_IRQ="IWI"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias zshrc="nvim ~/.zshrc"
 alias setproxy="export http_proxy=http://127.0.0.1:9001 https_proxy=http://127.0.0.1:9001"
 alias unsetproxy="unset http_proxy https_proxy"
 alias sdm="sudo systemctl "
