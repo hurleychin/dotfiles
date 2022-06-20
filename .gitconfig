@@ -11,3 +11,5 @@
     tool = kompare
 [difftool]
 	prompt = false
+[pull]
+	rebase = false
