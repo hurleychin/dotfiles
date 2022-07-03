@@ -6,7 +6,10 @@
 [core]
 	autocrlf = input
 	quotepath = false
+	filemode = false
 [diff]
     tool = kompare
 [difftool]
 	prompt = false
+[pull]
+	rebase = false
