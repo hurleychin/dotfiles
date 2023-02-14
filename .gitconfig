@@ -13,3 +13,5 @@
 	prompt = false
 [pull]
 	rebase = false
+[safe]
+	directory = /home/qinhulin/hgfs/git/java-practice

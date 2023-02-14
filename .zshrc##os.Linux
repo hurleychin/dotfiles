@@ -4,7 +4,6 @@
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$PATH:${HOME}/.local/bin
@@ -127,11 +126,12 @@ alias unsetproxy="unset http_proxy https_proxy"
 alias sdm="sudo systemctl "
 alias sdmu="systemctl --user "
 alias loc="sudo updatedb && locate"
-alias system-optimize="sudo journalctl --vacuum-time=2weeks"
+alias system-optimize="sudo pacman -Scc --noconfirm && sudo journalctl --vacuum-time=2weeks"
 alias system-err="journalctl -fp err  && systemctl --state=failed" # err=3 | warning=4
 alias ssh@mbp="ssh qinhulin-mbp"
 alias rmbl="rm -- *(-@D)"
 alias cheat="cht.sh "
+alias cht="cht.sh "
 alias httpsrv="python -m http.server"
 
 # Set up Node Version Manager
