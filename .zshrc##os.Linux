@@ -121,8 +121,8 @@ export MCFLY_HISTORY_LIMIT=10000
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias zshrc="nvim ~/.zshrc"
-alias setproxy="export http_proxy=http://127.0.0.1:9001 https_proxy=http://127.0.0.1:9001"
-alias unsetproxy="unset http_proxy https_proxy"
+alias setproxy="export http_proxy=http://127.0.0.1:9001 https_proxy=http://127.0.0.1:9001 ALL_PROXY=socks5://127.0.0.1:9000"
+alias unsetproxy="unset http_proxy https_proxy ALL_PROXY"
 alias sdm="sudo systemctl "
 alias sdmu="systemctl --user "
 alias loc="sudo updatedb && locate"
