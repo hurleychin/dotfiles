@@ -19,7 +19,7 @@ alias lsn='ls -1'     #A column contains name of files and directories
 
 alias cht="cht.sh"
 alias m="micro"
-alias vim="neovim"
+alias vim="nvim"
 alias pupu="pkg update&&pkg upgrade"
 alias setproxy="export http_proxy=http://rickgo.cf:9001 https_proxy=http://rickgo.cf:9001"
-alias unsetproxy="set -e http_proxy https_proxy"
+alias unsetproxy="set -e http_proxy && set -e https_proxy"
