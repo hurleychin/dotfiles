@@ -131,6 +131,7 @@ alias system-err="journalctl -fp err  && systemctl --state=failed" # err=3 | war
 alias ssh@mbp="ssh qinhulin-mbp"
 alias rmbl="rm -- *(-@D)"
 alias cheat="cht.sh "
+alias cht="cht.sh "
 alias httpsrv="python -m http.server"
 
 # Set up Node Version Manager
