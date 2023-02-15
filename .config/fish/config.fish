@@ -2,7 +2,10 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-set fish_greeting
+# User configuration
+set -U fish_greeting
+set -gx LANG en_US.UTF-8
+set -gx EDITOR nvim
 
 # ls, the common ones I use a lot shortened for rapid fire usage
 alias l='ls -lFh'     #size,show type,human readable
