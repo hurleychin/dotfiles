@@ -1,10 +1,18 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
+    if type -q fastfetch
+        fastfetch
+    else
+        neofetch    
+    end    
 end
 
+## User configuration
 set fish_greeting
+set -gx LANG en_US.UTF-8
+set -gx EDITOR nvim
 
-# ls, the common ones I use a lot shortened for rapid fire usage
+## Useful aliases
 alias l='ls -lFh'     #size,show type,human readable
 alias la='ls -lAFh'   #long list,show almost all,show type,human readable
 alias lr='ls -tRFh'   #sorted by date,recursive,show type,human readable
@@ -21,5 +29,7 @@ alias cht="cht.sh"
 alias m="micro"
 alias vim="nvim"
 alias pupu="pkg update&&pkg upgrade"
-alias setproxy="export http_proxy=http://rickgo.cf:9001 https_proxy=http://rickgo.cf:9001 ALL_PROXY=socks5://rickgo.cf:9000"
+
+alias setproxy="set -gx http_proxy http://rickgo.cf:9001 && set -gx https_proxy http://rickgo.cf:9001 && set -gx ALL_PROXY socks5://rickgo.cf:9000"
 alias unsetproxy="set -e http_proxy && set -e https_proxy && set -e ALL_PROXY"
+
