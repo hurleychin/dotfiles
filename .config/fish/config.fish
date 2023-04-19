@@ -33,3 +33,13 @@ alias pupu="pkg update&&pkg upgrade"
 alias setproxy="set -gx http_proxy http://rickgo.cf:9001 && set -gx https_proxy http://rickgo.cf:9001 && set -gx ALL_PROXY socks5://rickgo.cf:9000"
 alias unsetproxy="set -e http_proxy && set -e https_proxy && set -e ALL_PROXY"
 
+alias sdm="sudo systemctl "
+alias sdmu="systemctl --user "
+alias loc="sudo updatedb && locate"
+alias system-optimize="sudo pacman -Scc --noconfirm && sudo journalctl --vacuum-time=2weeks"
+alias system-err="journalctl -fp err  && systemctl --state=failed" # err=3 | warning=4
+alias ssh@mbp="ssh qinhulin-mbp"
+alias rmbl="rm -- *(-@D)"
+alias httpsrv="python -m http.server"
+
+
