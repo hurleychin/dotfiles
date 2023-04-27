@@ -27,10 +27,10 @@ alias lsn='ls -1'     #A column contains name of files and directories
 
 alias cht="cht.sh"
 alias m="micro"
-alias vim="nvim"
+#alias vim="nvim"
 alias pupu="pkg update&&pkg upgrade"
 
-alias setproxy="set -gx http_proxy http://rickgo.cf:9001 && set -gx https_proxy http://rickgo.cf:9001 && set -gx ALL_PROXY socks5://rickgo.cf:9000"
+alias setproxy="set -gx http_proxy http://127.0.0.1:9001 && set -gx https_proxy http://127.0.0.1:9001 && set -gx ALL_PROXY socks5://127.0.0.1:9000"
 alias unsetproxy="set -e http_proxy && set -e https_proxy && set -e ALL_PROXY"
 
 alias sdm="sudo systemctl "
