@@ -1,12 +1,3 @@
-if status is-interactive
-    # Commands to run in interactive sessions can go here
-    if type -q fastfetch
-        fastfetch
-    else
-        neofetch    
-    end    
-end
-
 ## User configuration
 set fish_greeting
 set -gx LANG en_US.UTF-8
@@ -27,7 +18,6 @@ alias lsn='ls -1'     #A column contains name of files and directories
 
 alias cht="cht.sh"
 alias m="micro"
-#alias vim="nvim"
 alias pupu="pkg update&&pkg upgrade"
 
 alias setproxy="set -gx http_proxy http://127.0.0.1:9001 && set -gx https_proxy http://127.0.0.1:9001 && set -gx ALL_PROXY socks5://127.0.0.1:9000"
