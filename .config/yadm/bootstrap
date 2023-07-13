@@ -1,18 +1,7 @@
 #!/bin/bash
 
-#cd "$HOME"
+cd "$HOME"
 
-#echo -e "\n\033[1;31m:: Install oh-my-zsh \033[m"
-#sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-#echo -e "\n\033[1;31m:: Install zsh-completions \033[m"
-#git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
-
-#echo -e "\n\033[1;31m:: Install zsh-syntax-highlighting \033[m"
-#git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-
-#echo -e "\n\033[1;31m:: Install zsh-autosuggestions \033[m"
-#git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
-#echo -e "\n\033[1;31m:: Install powerlevel10k \033[m"
-#git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+echo -e "\n\033[1;31m:: Install fisher \033[m"
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
+fisher install decors/fish-colored-man
