@@ -1,7 +1,6 @@
-#!/bin/bash
+#!/bin/fish
 
 cd "$HOME"
 
 echo -e "\n\033[1;31m:: Install fisher \033[m"
-curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
-fisher install decors/fish-colored-man
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher && fisher install decors/fish-colored-man
