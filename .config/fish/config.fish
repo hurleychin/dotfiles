@@ -31,4 +31,5 @@ alias ssh@mbp="ssh qinhulin-mbp"
 alias rmbl="rm -- *(-@D)"
 alias httpsrv="python -m http.server"
 
-
+export NEMU_HOME=/home/qinhulin/ics2022/nemu
+export AM_HOME=/home/qinhulin/ics2022/abstract-machine
