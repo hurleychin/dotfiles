@@ -1,6 +1,7 @@
 ## User configuration
 set fish_greeting
 set -gx LANG en_US.UTF-8
+set -gx EDITOR vim
 
 ## Useful aliases
 alias l='ls -lFh'     #size,show type,human readable
