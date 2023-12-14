@@ -3,6 +3,9 @@ set fish_greeting
 set -gx LANG en_US.UTF-8
 set -gx EDITOR vim
 
+## thefuck
+thefuck --alias | source
+
 ## Useful aliases
 alias l='ls -lFh'     #size,show type,human readable
 alias la='ls -lAFh'   #long list,show almost all,show type,human readable
@@ -37,6 +40,7 @@ alias apts="sudo apt search"
 alias auau="sudo apt update && sudo apt upgrade"
 
 alias ssh@raspi="ssh qinhulin@qhl123.wicp.net"
+	
 
 export NEMU_HOME=/home/qinhulin/ics2022/nemu
 export AM_HOME=/home/qinhulin/ics2022/abstract-machine
