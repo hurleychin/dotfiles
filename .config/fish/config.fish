@@ -34,8 +34,9 @@ alias httpsrv="python -m http.server"
 
 alias apti="sudo apt install"
 alias apts="sudo apt search"
+alias auau="sudo apt update && sudo apt upgrade"
 
-alias ssh@raspi="ssh qinhulin@qhl123.wicp.net -p9222"
+alias ssh@raspi="ssh qinhulin@qhl123.wicp.net"
 
 export NEMU_HOME=/home/qinhulin/ics2022/nemu
 export AM_HOME=/home/qinhulin/ics2022/abstract-machine
