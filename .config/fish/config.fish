@@ -32,5 +32,10 @@ alias ssh@mbp="ssh qinhulin-mbp"
 alias rmbl="rm -- *(-@D)"
 alias httpsrv="python -m http.server"
 
+alias apti="sudo apt install"
+alias apts="sudo apt search"
+
+alias ssh@raspi="ssh qinhulin@qhl123.wicp.net -p9222"
+
 export NEMU_HOME=/home/qinhulin/ics2022/nemu
 export AM_HOME=/home/qinhulin/ics2022/abstract-machine
