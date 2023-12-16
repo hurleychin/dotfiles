@@ -4,7 +4,7 @@ set -gx LANG en_US.UTF-8
 set -gx EDITOR vim
 
 ## thefuck
-thefuck --alias | source
+TF_SHELL=fish thefuck --alias | source
 
 ## Useful aliases
 alias l='ls -lFh'     #size,show type,human readable
