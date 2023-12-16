@@ -2,6 +2,7 @@
 set fish_greeting
 set -gx LANG en_US.UTF-8
 set -gx EDITOR vim
+set -U fish_user_paths /home/qinhulin/.local/bin $fish_user_paths
 
 ## thefuck
 TF_SHELL=fish thefuck --alias | source
@@ -37,6 +38,7 @@ alias httpsrv="python -m http.server"
 
 alias apti="sudo apt install"
 alias apts="sudo apt search"
+alias aptr="sudo apt remove"
 alias auau="sudo apt update && sudo apt upgrade"
 
 alias ssh@raspi="ssh -Y qinhulin@qhl123.wicp.net"
