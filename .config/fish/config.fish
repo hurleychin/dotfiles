@@ -1,7 +1,7 @@
 ## User configuration
 set fish_greeting
 set -gx LANG en_US.UTF-8
-set -gx EDITOR vim
+set -gx EDITOR $(which vim)
 
 ## thefuck
 thefuck --alias | source
