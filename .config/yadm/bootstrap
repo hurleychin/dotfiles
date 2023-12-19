@@ -5,4 +5,10 @@ cd "$HOME"
 echo -e "\n\033[1;31m:: Install fisher \033[m"
 curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source \
 	&& fisher install jorgebucaran/fisher \
-	&& fisher install decors/fish-colored-man \
+	&& fisher install decors/fish-colored-man
+
+echo -e "\n\033[1;31m:: Install .tmux \033[m"
+git clone https://github.com/gpakosz/.tmux.git
+ln -s -f .tmux/.tmux.conf
+cp .tmux/.tmux.conf.local .        
+        
