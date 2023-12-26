@@ -2,7 +2,6 @@
 set fish_greeting
 set -gx LANG en_US.UTF-8
 set -gx EDITOR $(which vim)
-set -U fish_user_paths /home/qinhulin/.local/bin $fish_user_paths
 
 ## thefuck
 TF_SHELL=fish thefuck --alias | source
