@@ -35,6 +35,7 @@ alias system-err="journalctl -fp err  && systemctl --state=failed" # err=3 | war
 alias ssh@mbp="ssh qinhulin-mbp"
 alias rmbl="rm -- *(-@D)"
 alias httpsrv="python -m http.server"
+alias mux="tmux attach"
 
 alias apti="sudo apt install"
 alias apts="sudo apt search"

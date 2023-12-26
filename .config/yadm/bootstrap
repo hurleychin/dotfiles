@@ -10,5 +10,4 @@ curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fi
 echo -e "\n\033[1;31m:: Install .tmux \033[m"
 git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
-cp .tmux/.tmux.conf.local .        
-        
+cp .tmux/.tmux.conf.local .
