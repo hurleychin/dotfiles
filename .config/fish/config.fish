@@ -3,7 +3,11 @@ set fish_greeting
 set -gx LANG en_US.UTF-8
 set -gx EDITOR $(which vim)
 fish_vi_key_bindings
-bind --preset -M insert \ce end-of-line
+
+##Key bind
+function fish_user_key_bindings
+    bind --preset -M insert \cE end-of-line
+end
 
 ## thefuck
 TF_SHELL=fish thefuck --alias | source
