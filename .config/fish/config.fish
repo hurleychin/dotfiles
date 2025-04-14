@@ -3,6 +3,9 @@ set fish_greeting
 set -gx LANG en_US.UTF-8
 set -gx EDITOR $(which vim)
 
+fish_vi_key_bindings
+bind -M insert \ce end-of-line
+
 ## thefuck
 TF_SHELL=fish thefuck --alias | source
 
@@ -23,8 +26,9 @@ alias cht="cht.sh"
 alias m="micro"
 alias pupu="pkg update&&pkg upgrade"
 
-alias setproxy="set -gx http_proxy http://127.0.0.1:9001 && set -gx https_proxy http://127.0.0.1:9001 && set -gx ALL_PROXY socks5://127.0.0.1:9000"
+alias setproxy="set -gx http_proxy http://127.0.0.1:9000 && set -gx https_proxy http://127.0.0.1:9000 && set -gx ALL_PROXY socks5://127.0.0.1:9000"
 alias unsetproxy="set -e http_proxy && set -e https_proxy && set -e ALL_PROXY"
+alias pc="proxychains"
 
 alias sdm="sudo systemctl "
 alias sdmu="systemctl --user "
@@ -43,6 +47,3 @@ alias auau="sudo apt update && sudo apt upgrade"
 
 alias ssh@raspi="ssh -Y qinhulin@qhl123.wicp.net"
 	
-
-export NEMU_HOME=/home/qinhulin/ics2022/nemu
-export AM_HOME=/home/qinhulin/ics2022/abstract-machine
