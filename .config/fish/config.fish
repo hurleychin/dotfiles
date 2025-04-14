@@ -48,7 +48,8 @@ alias aptr="sudo apt remove"
 alias auau="sudo apt update && sudo apt upgrade"
 
 alias ssh@raspi="ssh -Y qinhulin@qhl123.wicp.net"
-	
 
-export NEMU_HOME=/home/qinhulin/ics2022/nemu
-export AM_HOME=/home/qinhulin/ics2022/abstract-machine
+## Start X at login
+if test -z "$WAYLAND_DISPLAY" -a -n "$XDG_VTNR" -a "$XDG_VTNR" = 1
+    exec sway
+end
