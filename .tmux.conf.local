@@ -5,8 +5,10 @@
 
 #         Copyright 2012— Gregory Pakosz (@gpakosz).
 
-set-option -g default-shell "/bin/fish"  # 设置默认Shell为fish
-set -g mouse on                        # 启用鼠标支持
+# 设置默认shell为fish
+set-option -g default-shell "/bin/fish"
+# 启用鼠标支持
+set -g mouse on
 
 
 # -- session creation ----------------------------------------------------------
