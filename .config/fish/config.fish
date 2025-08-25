@@ -1,26 +1,5 @@
-## end-4 dots-hyprland
-
-function fish_prompt -d "Write out the prompt"
-    # This shows up as USER@HOST /home/user/ >, with the directory colored
-    # $USER and $hostname are set by fish, so you can just use them
-    # instead of using `whoami` and `hostname`
-    printf '%s@%s %s%s%s > ' $USER $hostname \
-        (set_color $fish_color_cwd) (prompt_pwd) (set_color normal)
-end
-
-if status is-interactive
-    # Commands to run in interactive sessions can go here
-    set fish_greeting
-
-end
-
-starship init fish | source
-if test -f ~/.local/state/quickshell/user/generated/terminal/sequences.txt
-    cat ~/.local/state/quickshell/user/generated/terminal/sequences.txt
-end
-
 ## User configuration
-#set fish_greeting
+set fish_greeting
 set -gx LANG en_US.UTF-8
 set -gx EDITOR $(which vim)
 
@@ -45,6 +24,18 @@ source /usr/share/doc/filkoll/command-not-found.fish
 zoxide init fish | source
 
 ## Useful aliases
+alias l='ls -lFh'     #size,show type,human readable
+alias la='ls -lAFh'   #long list,show almost all,show type,human readable
+alias lr='ls -tRFh'   #sorted by date,recursive,show type,human readable
+alias lt='ls -ltFh'   #long list,sorted by date,show type,human readable
+alias ll='ls -l'      #long list
+alias ldot='ls -ld .*'
+alias lS='ls -1FSsh'
+alias lart='ls -1Fcart'
+alias lrt='ls -1Fcrt'
+alias lsr='ls -lARFh' #Recursive list of files and directories
+alias lsn='ls -1'     #A column contains name of files and directories
+
 alias cht="cht.sh"
 alias m="micro"
 alias pupu="pkg update&&pkg upgrade"
