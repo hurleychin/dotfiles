@@ -23,18 +23,12 @@ source /usr/share/doc/filkoll/command-not-found.fish
 ## init zoxide
 zoxide init fish | source
 
+## init startship
+starship init fish | source
+
 ## Useful aliases
-alias l='ls -lFh'     #size,show type,human readable
-alias la='ls -lAFh'   #long list,show almost all,show type,human readable
-alias lr='ls -tRFh'   #sorted by date,recursive,show type,human readable
-alias lt='ls -ltFh'   #long list,sorted by date,show type,human readable
-alias ll='ls -l'      #long list
-alias ldot='ls -ld .*'
-alias lS='ls -1FSsh'
-alias lart='ls -1Fcart'
-alias lrt='ls -1Fcrt'
-alias lsr='ls -lARFh' #Recursive list of files and directories
-alias lsn='ls -1'     #A column contains name of files and directories
+alias ls="eza --icons"
+alias l="ls -lAh"
 
 alias cht="cht.sh"
 alias m="micro"
@@ -62,4 +56,11 @@ alias auau="sudo apt update && sudo apt upgrade"
 alias ssh@raspi="ssh -Y qinhulin@qhl123.wicp.net"
 
 alias translate="aichat -r translate"
+
+# Start X at login
+if status is-login
+    if test -z "$DISPLAY" -a "$XDG_VTNR" = 1
+        exec Hyprland
+    end
+end
 	
