@@ -1,0 +1,6 @@
+# see https://github.com/sigoden/aichat/blob/main/config.example.yaml
+
+model: gemini:gemini-2.5-flash
+clients:
+- type: gemini
+  api_key: AIzaSyCHjJotjSExPizFBmTmI24HS1zj9mZZXNY
