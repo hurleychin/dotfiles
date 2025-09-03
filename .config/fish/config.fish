@@ -27,6 +27,9 @@ zoxide init fish | source
 alias ls='eza --icons'
 alias l='ls -lAh'   #long list,show almost all,show type,human readable
 
+## init startship
+starship init fish | source
+
 alias cht="cht.sh"
 alias m="micro"
 alias pupu="pkg update&&pkg upgrade"
@@ -53,4 +56,11 @@ alias auau="sudo apt update && sudo apt upgrade"
 alias ssh@raspi="ssh -Y qinhulin@qhl123.wicp.net"
 
 alias translate="aichat -r translate"
-	
+
+# Start X at login
+if status is-login
+    if test -z "$DISPLAY" -a "$XDG_VTNR" = 1
+        exec Hyprland
+    end
+end
+

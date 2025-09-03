@@ -12,6 +12,18 @@
 [difftool]
 	prompt = false
 [pull]
-	rebase = false
+	rebase = true
 [safe]
 	directory = /home/qinhulin/hgfs/git/java-practice
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+[init]
+	defaultBranch = master
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
